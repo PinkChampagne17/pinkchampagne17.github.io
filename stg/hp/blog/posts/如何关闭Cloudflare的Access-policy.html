@@ -1,0 +1,118 @@
+<!DOCTYPE html><html lang="zh-Hans"><head><meta charSet="utf-8"/><link rel="stylesheet" href="/stg/hp/_next/static/css/d8925ad34cd16526.css" data-precedence="next"/><link rel="stylesheet" href="/stg/hp/_next/static/css/ce37027d437a4e21.css" data-precedence="next"/><link rel="stylesheet" href="/stg/hp/_next/static/css/5e9ef57a56da0172.css" data-precedence="next"/><title>如何关闭Cloudflare的Access-policy - Pink Champagne&#x27;s blog (Beta)</title><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="icon" href="/favicon.ico" sizes="any"/><script src="/stg/hp/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body><div class="flex flex-col gap-3 max-w-2xl p-4 my-0 mx-auto"><nav class="flex gap-3"><a href="/stg/hp"><button class="
+  rounded-xl px-3 py-2
+  text-xl text-red-900 text-center
+  bg-rose-300 hover:bg-rose-200
+  transition-all
+ inline-block w-32" type="button">Home</button></a><a href="/stg/hp/blog"><button class="
+  rounded-xl px-3 py-2
+  text-xl text-red-900 text-center
+  bg-rose-300 hover:bg-rose-200
+  transition-all
+ inline-block w-32" type="button">Blog</button></a></nav><main><div class="markdown-body"><div><h1>如何关闭Cloudflare的Access-policy</h1><p><time>Published at: <!-- -->2021-11-03</time><br/><time>Updated at: <!-- -->2021-11-03</time></p></div><article><p>本文讲述如何在不绑定信用卡的情况下关闭 Cloudflare 的 Access policy。</p>
+<p>This post describes that how to disable the Access policy of Cloudflare without credit card.</p>
+<!-- more -->
+<!-- TOC -->
+<ul>
+<li><a href="#%E5%89%8D%E8%A8%80">前言</a></li>
+<li><a href="#%E5%BF%85%E8%A6%81%E6%9D%A1%E4%BB%B6">必要条件</a></li>
+<li><a href="#%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B">操作流程</a>
+<ul>
+<li><a href="#%E8%8E%B7%E5%8F%96%E8%87%AA%E5%B7%B1%E7%9A%84-identifier">获取自己的 identifier</a></li>
+<li><a href="#%E8%8E%B7%E5%8F%96%E8%87%AA%E5%B7%B1%E7%9A%84-x-auth-key">获取自己的 X-Auth-Key</a></li>
+<li><a href="#%E8%8E%B7%E5%8F%96-access-policy-%E7%9A%84-id">获取 Access policy 的 ID</a></li>
+<li><a href="#%E5%85%B3%E9%97%AD-access-policy">关闭 Access policy</a></li>
+</ul>
+</li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">参考资料</a></li>
+</ul>
+<!-- /TOC -->
+<h2 id="前言">前言</h2>
+<p>最近使用在使用 Cloudflare Pages 部署静态网页的过程中，不小心开启了 Access-policy，导致访问部署项目的历史版本都需要经过验证，但想进入关闭 Access-policy 的页面，必须要先绑定了信用卡。</p>
+<p>这次属实是被 Cloudflare 给恶心到了，还好找到了解决方法，也就是通过调用 API 的方式去关闭这个功能。</p>
+<h2 id="必要条件">必要条件</h2>
+<ul>
+<li>熟悉 HTTP 协议接口的使用</li>
+<li>熟悉 curl 的操作方式</li>
+</ul>
+<h2 id="操作流程">操作流程</h2>
+<p>根据 Cloudflare API 的文档，<a href="https://api.cloudflare.com/#access-applications-list-access-applications">获取 List Access Applications</a>。</p>
+<pre><code>GET accounts/:identifier/access/apps
+</code></pre>
+<p>官方示例：</p>
+<pre><code class="language-shell">curl -X GET "https://api.cloudflare.com/client/v4/accounts/699d98642c564d2e855e9661899b7252/access/apps" \
+     -H "X-Auth-Email: user@example.com" \
+     -H "X-Auth-Key: c2547eb745079dac9320b638f5e225cf483cc5cfdda41" \
+     -H "Content-Type: application/json"
+</code></pre>
+<p>对 API 请求数据很简单，X-Auth-Email 很明显是我们账户绑定的邮箱，但是 url 参数中的 identifier 与 X-Auth-Key 的值应该如何获得？</p>
+<h3 id="获取自己的-identifier">获取自己的 identifier</h3>
+<p>登录 Cloudflare 之后，我们可以在主页的 URL 后看到一个看上去像是 ID 的字符串（abcdef1145141919810abcdefabcdefa），没错，这个就是我们的 identifier 。</p>
+<p><img src="/imgs/posts/disable-cloudflare-access-policy/api-tokens.png" alt="Cloudflare 主页"></p>
+<h3 id="获取自己的-x-auth-key">获取自己的 X-Auth-Key</h3>
+<p>登录 Cloudflare 可在这个页面 <a href="https://dash.cloudflare.com/profile/api-tokens">https://dash.cloudflare.com/profile/api-tokens</a> 的 Global API Key 选项中查看。</p>
+<p><img src="/imgs/posts/disable-cloudflare-access-policy/api-tokens.png" alt="API Tokens 页"></p>
+<h3 id="获取-access-policy-的-id">获取 Access policy 的 ID</h3>
+<p>有了自己账户的 identifier 与 X-Auth-Key 之后，就可以对上文提到的 API 发送请求了，以下是我开启 Access policy 后对该 API 发送请求的结果，我们可以得到 Access policy 的 ID <code>ffffffff-1145-1419-1981-ffffffff</code>。</p>
+<pre><code class="language-json">{
+  "result": [
+    {
+      "aud": "*",
+      "created_at": "*",
+      "domain": "****",
+      "id": "ffffffff-1145-1419-1981-ffffffff",
+      "name": "***** - Cloudflare Pages",
+      "policies": [
+        {
+          "created_at": "*",
+          "decision": "allow",
+          "exclude": [],
+          "id": "****",
+          "include": [
+            {
+              "email": {
+                "email": "*@*****.****"
+              }
+            }
+          ]
+          // ...
+        }
+      ],
+      "allowed_idps": ["*-****-*****"],
+      "auto_redirect_to_identity": false,
+      "session_duration": "24h",
+      "ssh_logging_enabled": false,
+      "uid": "****-****-*",
+      "updated_at": "",
+      "type": "self_hosted",
+      "app_launcher_visible": false
+    }
+  ],
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+</code></pre>
+<h3 id="关闭-access-policy">关闭 Access policy</h3>
+<p>有了 Access policy 的 ID 之后，就可以使用<a href="https://api.cloudflare.com/#access-applications-delete-access-application">删除 Access Application 的接口</a>关闭 Access policy。Cloudflare 是使用 RESTful 规范设计的 API，删除接口的 URL 就是将上文提到的接口，将 GET 换成 DELETE，并在最后加上 ID。</p>
+<pre><code>DELETE accounts/:identifier/access/apps/:uuid
+</code></pre>
+<pre><code class="language-shell">curl -X DELETE "https://api.cloudflare.com/client/v4/accounts/abcdef1145141919810abcdefabcdefa/access/apps/ffffffff-1145-1419-1981-ffffffff" \
+     -H "X-Auth-Email: user@example.com" \
+     -H "X-Auth-Key: c2547eb745079dac9320b638f5e225cf483cc5cfdda41" \
+     -H "Content-Type: application/json"
+</code></pre>
+<p>发送 DELETE 请求后，返回结果类似以下的结果，状态码为 202 (Accepted)，恭喜你，你已经成功关闭了<del>这该死的</del> Access policy！</p>
+<p>如果返回了其他的结果，请根据返回的结果中的提示，修改你请求中的参数。</p>
+<pre><code class="language-json">{
+  "result": {
+    "id": "ffffffff-1145-1419-1981-ffffffff"
+  },
+  "success": true,
+  "errors": [],
+  "messages": []
+}
+</code></pre>
+<h2 id="参考资料">参考资料</h2>
+<ul>
+<li><a href="https://community.cloudflare.com/t/how-can-i-disable-the-access-policy-of-cloudflare-pages/292358/8">https://community.cloudflare.com/t/how-can-i-disable-the-access-policy-of-cloudflare-pages/292358/8</a>)</li>
+</ul></article></div></main><footer class="p-6 text-[#A00000] bg-[#FFB5B5] rounded-xl"><p>License:<!-- --> <a referrerPolicy="no-referrer" rel="noreferrer" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY-NC-SA 4.0</a></p><p>My homepage had been undergoing renovation.</p><p>© 2020-present PinkChampagne17</p></footer></div><script src="/stg/hp/_next/static/chunks/webpack-dae5e8842d017432.js" async=""></script><script src="/stg/hp/_next/static/chunks/575debc0-4e817dcf88c54eb7.js" async=""></script><script src="/stg/hp/_next/static/chunks/524-481d27e34ef716bf.js" async=""></script><script src="/stg/hp/_next/static/chunks/main-app-12e1a5af0ab963b1.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"1:HL[\"/stg/hp/_next/static/css/d8925ad34cd16526.css\",{\"as\":\"style\"}]\n0:\"$L2\"\n"])</script><script>self.__next_f.push([1,"3:HL[\"/stg/hp/_next/static/css/ce37027d437a4e21.css\",{\"as\":\"style\"}]\n4:HL[\"/stg/hp/_next/static/css/5e9ef57a56da0172.css\",{\"as\":\"style\"}]\n"])</script><script>self.__next_f.push([1,"5:I{\"id\":\"8778\",\"chunks\":[\"272:static/chunks/webpack-dae5e8842d017432.js\",\"501:static/chunks/575debc0-4e817dcf88c54eb7.js\",\"524:static/chunks/524-481d27e34ef716bf.js\"],\"name\":\"\",\"async\":false}\n7:I{\"id\":\"8314\",\"chunks\":[\"272:static/chunks/webpack-dae5e8842d017432.js\",\"501:static/chunks/575debc0-4e817dcf88c54eb7.js\",\"524:static/chunks/524-481d27e34ef716bf.js\"],\"name\":\"\",\"async\":false}\n8:I{\"id\":\"5904\",\"chunks\":[\"904:static/chunks/904-3977fe2b38b5f8b3.js\",\"404:static/chunks/app/blog/page-285a42361f10eb04.js\"],\""])</script><script>self.__next_f.push([1,"name\":\"\",\"async\":false}\na:I{\"id\":\"4355\",\"chunks\":[\"904:static/chunks/904-3977fe2b38b5f8b3.js\",\"185:static/chunks/app/layout-8587438c79048c05.js\"],\"name\":\"Footer\",\"async\":false}\nb:I{\"id\":\"7718\",\"chunks\":[\"272:static/chunks/webpack-dae5e8842d017432.js\",\"501:static/chunks/575debc0-4e817dcf88c54eb7.js\",\"524:static/chunks/524-481d27e34ef716bf.js\"],\"name\":\"\",\"async\":false}\nc:I{\"id\":\"4765\",\"chunks\":[\"272:static/chunks/webpack-dae5e8842d017432.js\",\"501:static/chunks/575debc0-4e817dcf88c54eb7.js\",\"524:static/chunks/"])</script><script>self.__next_f.push([1,"524-481d27e34ef716bf.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"2:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/stg/hp/_next/static/css/d8925ad34cd16526.css\",\"precedence\":\"next\"}]],[\"$\",\"$L5\",null,{\"buildId\":\"q2fRflyxNmU39jttzLoCD\",\"assetPrefix\":\"/stg/hp\",\"initialCanonicalUrl\":\"/blog/posts/%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADCloudflare%E7%9A%84Access-policy\",\"initialTree\":[\"\",{\"children\":[\"blog\",{\"children\":[\"posts\",{\"children\":[[\"id\",\"%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADCloudflare%E7%9A%84Access-policy\",\"d\"],{\"children\":[\"__PAGE__?{\\\"id\\\":\\\"如何关闭Cloudflare的Access-policy\\\"}\",{}]}]}]}]},\"$undefined\",\"$undefined\",true],\"initialHead\":[\"$L6\",null],\"globalErrorComponent\":\"$7\",\"notFound\":[\"$\",\"html\",null,{\"lang\":\"zh-Hans\",\"children\":[[\"$\",\"head\",null,{\"children\":[\"$\",\"link\",null,{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"sizes\":\"any\"}]}],[\"$\",\"body\",null,{\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-3 max-w-2xl p-4 my-0 mx-auto\",\"children\":[[\"$\",\"nav\",null,{\"className\":\"flex gap-3\",\"children\":[[\"$\",\"$L8\",null,{\"href\":\"/\",\"children\":[\"$\",\"button\",null,{\"className\":\"\\n  rounded-xl px-3 py-2\\n  text-xl text-red-900 text-center\\n  bg-rose-300 hover:bg-rose-200\\n  transition-all\\n inline-block w-32\",\"type\":\"button\",\"children\":\"Home\"}]}],[\"$\",\"$L8\",null,{\"href\":\"/blog\",\"children\":[\"$\",\"button\",null,{\"className\":\"\\n  rounded-xl px-3 py-2\\n  text-xl text-red-900 text-center\\n  bg-rose-300 hover:bg-rose-200\\n  transition-all\\n inline-block w-32\",\"type\":\"button\",\"children\":\"Blog\"}]}]]}],[\"$\",\"main\",null,{\"children\":[\"$L9\",\"$undefined\",[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]]]}],[\"$\",\"$La\",null,{}]]}]}]]}],\"asNotFound\":false,\"children\":[[\"$\",\"html\",null,{\"lang\":\"zh-Hans\",\"children\":[[\"$\",\"head\",null,{\"children\":[\"$\",\"link\",null,{\"rel\":\"icon\",\"href\":\"/favicon.ico\",\"sizes\":\"any\"}]}],[\"$\",\"body\",null,{\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-col gap-3 max-w-2xl p-4 my-0 mx-auto\",\"children\":[[\"$\",\"nav\",null,{\"className\":\"flex gap-3\",\"children\":[[\"$\",\"$L8\",null,{\"href\":\"/\",\"children\":[\"$\",\"button\",null,{\"className\":\"\\n  rounded-xl px-3 py-2\\n  text-xl text-red-900 text-center\\n  bg-rose-300 hover:bg-rose-200\\n  transition-all\\n inline-block w-32\",\"type\":\"button\",\"children\":\"Home\"}]}],[\"$\",\"$L8\",null,{\"href\":\"/blog\",\"children\":[\"$\",\"button\",null,{\"className\":\"\\n  rounded-xl px-3 py-2\\n  text-xl text-red-900 text-center\\n  bg-rose-300 hover:bg-rose-200\\n  transition-all\\n inline-block w-32\",\"type\":\"button\",\"children\":\"Blog\"}]}]]}],[\"$\",\"main\",null,{\"children\":[\"$\",\"$Lb\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lc\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$\",\"$Lb\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lc\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$\",\"$Lb\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\",\"posts\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lc\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$\",\"$Lb\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"blog\",\"children\",\"posts\",\"children\",[\"id\",\"%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADCloudflare%E7%9A%84Access-policy\",\"d\"],\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$Lc\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"childProp\":{\"current\":[\"$Ld\",null],\"segment\":\"__PAGE__?{\\\"id\\\":\\\"如何关闭Cloudflare的Access-policy\\\"}\"},\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/stg/hp/_next/static/css/ce37027d437a4e21.css\",\"precedence\":\"next\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/stg/hp/_next/static/css/5e9ef57a56da0172.css\",\"precedence\":\"next\"}]]}],\"segment\":[\"id\",\"%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADCloudflare%E7%9A%84Access-policy\",\"d\"]},\"styles\":[]}],\"segment\":\"posts\"},\"styles\":[]}],\"segment\":\"blog\"},\"styles\":[]}]}],[\"$\",\"$La\",null,{}]]}]}]]}],null]}]]\n"])</script><script>self.__next_f.push([1,"e:I{\"id\":\"6277\",\"chunks\":[\"457:static/chunks/457-75bff71114ec1fa7.js\",\"978:static/chunks/app/blog/posts/[id]/page-fd8f505dd66fc6bb.js\"],\"name\":\"Article\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"d:[\"$\",\"div\",null,{\"className\":\"markdown-body\",\"children\":[[\"$\",\"div\",null,{\"children\":[[\"$\",\"h1\",null,{\"children\":\"如何关闭Cloudflare的Access-policy\"}],[\"$\",\"p\",null,{\"children\":[[\"$\",\"time\",null,{\"children\":[\"Published at: \",\"2021-11-03\"]}],[\"$\",\"br\",null,{}],[\"$\",\"time\",null,{\"children\":[\"Updated at: \",\"2021-11-03\"]}]]}]]}],[\"$\",\"$Le\",null,{\"html\":\"\u003cp\u003e本文讲述如何在不绑定信用卡的情况下关闭 Cloudflare 的 Access policy。\u003c/p\u003e\\n\u003cp\u003eThis post describes that how to disable the Access policy of Cloudflare without credit card.\u003c/p\u003e\\n\u003c!-- more --\u003e\\n\u003c!-- TOC --\u003e\\n\u003cul\u003e\\n\u003cli\u003e\u003ca href=\\\"#%E5%89%8D%E8%A8%80\\\"\u003e前言\u003c/a\u003e\u003c/li\u003e\\n\u003cli\u003e\u003ca href=\\\"#%E5%BF%85%E8%A6%81%E6%9D%A1%E4%BB%B6\\\"\u003e必要条件\u003c/a\u003e\u003c/li\u003e\\n\u003cli\u003e\u003ca href=\\\"#%E6%93%8D%E4%BD%9C%E6%B5%81%E7%A8%8B\\\"\u003e操作流程\u003c/a\u003e\\n\u003cul\u003e\\n\u003cli\u003e\u003ca href=\\\"#%E8%8E%B7%E5%8F%96%E8%87%AA%E5%B7%B1%E7%9A%84-identifier\\\"\u003e获取自己的 identifier\u003c/a\u003e\u003c/li\u003e\\n\u003cli\u003e\u003ca href=\\\"#%E8%8E%B7%E5%8F%96%E8%87%AA%E5%B7%B1%E7%9A%84-x-auth-key\\\"\u003e获取自己的 X-Auth-Key\u003c/a\u003e\u003c/li\u003e\\n\u003cli\u003e\u003ca href=\\\"#%E8%8E%B7%E5%8F%96-access-policy-%E7%9A%84-id\\\"\u003e获取 Access policy 的 ID\u003c/a\u003e\u003c/li\u003e\\n\u003cli\u003e\u003ca href=\\\"#%E5%85%B3%E9%97%AD-access-policy\\\"\u003e关闭 Access policy\u003c/a\u003e\u003c/li\u003e\\n\u003c/ul\u003e\\n\u003c/li\u003e\\n\u003cli\u003e\u003ca href=\\\"#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99\\\"\u003e参考资料\u003c/a\u003e\u003c/li\u003e\\n\u003c/ul\u003e\\n\u003c!-- /TOC --\u003e\\n\u003ch2 id=\\\"前言\\\"\u003e前言\u003c/h2\u003e\\n\u003cp\u003e最近使用在使用 Cloudflare Pages 部署静态网页的过程中，不小心开启了 Access-policy，导致访问部署项目的历史版本都需要经过验证，但想进入关闭 Access-policy 的页面，必须要先绑定了信用卡。\u003c/p\u003e\\n\u003cp\u003e这次属实是被 Cloudflare 给恶心到了，还好找到了解决方法，也就是通过调用 API 的方式去关闭这个功能。\u003c/p\u003e\\n\u003ch2 id=\\\"必要条件\\\"\u003e必要条件\u003c/h2\u003e\\n\u003cul\u003e\\n\u003cli\u003e熟悉 HTTP 协议接口的使用\u003c/li\u003e\\n\u003cli\u003e熟悉 curl 的操作方式\u003c/li\u003e\\n\u003c/ul\u003e\\n\u003ch2 id=\\\"操作流程\\\"\u003e操作流程\u003c/h2\u003e\\n\u003cp\u003e根据 Cloudflare API 的文档，\u003ca href=\\\"https://api.cloudflare.com/#access-applications-list-access-applications\\\"\u003e获取 List Access Applications\u003c/a\u003e。\u003c/p\u003e\\n\u003cpre\u003e\u003ccode\u003eGET accounts/:identifier/access/apps\\n\u003c/code\u003e\u003c/pre\u003e\\n\u003cp\u003e官方示例：\u003c/p\u003e\\n\u003cpre\u003e\u003ccode class=\\\"language-shell\\\"\u003ecurl -X GET \\\"https://api.cloudflare.com/client/v4/accounts/699d98642c564d2e855e9661899b7252/access/apps\\\" \\\\\\n     -H \\\"X-Auth-Email: user@example.com\\\" \\\\\\n     -H \\\"X-Auth-Key: c2547eb745079dac9320b638f5e225cf483cc5cfdda41\\\" \\\\\\n     -H \\\"Content-Type: application/json\\\"\\n\u003c/code\u003e\u003c/pre\u003e\\n\u003cp\u003e对 API 请求数据很简单，X-Auth-Email 很明显是我们账户绑定的邮箱，但是 url 参数中的 identifier 与 X-Auth-Key 的值应该如何获得？\u003c/p\u003e\\n\u003ch3 id=\\\"获取自己的-identifier\\\"\u003e获取自己的 identifier\u003c/h3\u003e\\n\u003cp\u003e登录 Cloudflare 之后，我们可以在主页的 URL 后看到一个看上去像是 ID 的字符串（abcdef1145141919810abcdefabcdefa），没错，这个就是我们的 identifier 。\u003c/p\u003e\\n\u003cp\u003e\u003cimg src=\\\"/imgs/posts/disable-cloudflare-access-policy/api-tokens.png\\\" alt=\\\"Cloudflare 主页\\\"\u003e\u003c/p\u003e\\n\u003ch3 id=\\\"获取自己的-x-auth-key\\\"\u003e获取自己的 X-Auth-Key\u003c/h3\u003e\\n\u003cp\u003e登录 Cloudflare 可在这个页面 \u003ca href=\\\"https://dash.cloudflare.com/profile/api-tokens\\\"\u003ehttps://dash.cloudflare.com/profile/api-tokens\u003c/a\u003e 的 Global API Key 选项中查看。\u003c/p\u003e\\n\u003cp\u003e\u003cimg src=\\\"/imgs/posts/disable-cloudflare-access-policy/api-tokens.png\\\" alt=\\\"API Tokens 页\\\"\u003e\u003c/p\u003e\\n\u003ch3 id=\\\"获取-access-policy-的-id\\\"\u003e获取 Access policy 的 ID\u003c/h3\u003e\\n\u003cp\u003e有了自己账户的 identifier 与 X-Auth-Key 之后，就可以对上文提到的 API 发送请求了，以下是我开启 Access policy 后对该 API 发送请求的结果，我们可以得到 Access policy 的 ID \u003ccode\u003effffffff-1145-1419-1981-ffffffff\u003c/code\u003e。\u003c/p\u003e\\n\u003cpre\u003e\u003ccode class=\\\"language-json\\\"\u003e{\\n  \\\"result\\\": [\\n    {\\n      \\\"aud\\\": \\\"*\\\",\\n      \\\"created_at\\\": \\\"*\\\",\\n      \\\"domain\\\": \\\"****\\\",\\n      \\\"id\\\": \\\"ffffffff-1145-1419-1981-ffffffff\\\",\\n      \\\"name\\\": \\\"***** - Cloudflare Pages\\\",\\n      \\\"policies\\\": [\\n        {\\n          \\\"created_at\\\": \\\"*\\\",\\n          \\\"decision\\\": \\\"allow\\\",\\n          \\\"exclude\\\": [],\\n          \\\"id\\\": \\\"****\\\",\\n          \\\"include\\\": [\\n            {\\n              \\\"email\\\": {\\n                \\\"email\\\": \\\"*@*****.****\\\"\\n              }\\n            }\\n          ]\\n          // ...\\n        }\\n      ],\\n      \\\"allowed_idps\\\": [\\\"*-****-*****\\\"],\\n      \\\"auto_redirect_to_identity\\\": false,\\n      \\\"session_duration\\\": \\\"24h\\\",\\n      \\\"ssh_logging_enabled\\\": false,\\n      \\\"uid\\\": \\\"****-****-*\\\",\\n      \\\"updated_at\\\": \\\"\\\",\\n      \\\"type\\\": \\\"self_hosted\\\",\\n      \\\"app_launcher_visible\\\": false\\n    }\\n  ],\\n  \\\"success\\\": true,\\n  \\\"errors\\\": [],\\n  \\\"messages\\\": []\\n}\\n\u003c/code\u003e\u003c/pre\u003e\\n\u003ch3 id=\\\"关闭-access-policy\\\"\u003e关闭 Access policy\u003c/h3\u003e\\n\u003cp\u003e有了 Access policy 的 ID 之后，就可以使用\u003ca href=\\\"https://api.cloudflare.com/#access-applications-delete-access-application\\\"\u003e删除 Access Application 的接口\u003c/a\u003e关闭 Access policy。Cloudflare 是使用 RESTful 规范设计的 API，删除接口的 URL 就是将上文提到的接口，将 GET 换成 DELETE，并在最后加上 ID。\u003c/p\u003e\\n\u003cpre\u003e\u003ccode\u003eDELETE accounts/:identifier/access/apps/:uuid\\n\u003c/code\u003e\u003c/pre\u003e\\n\u003cpre\u003e\u003ccode class=\\\"language-shell\\\"\u003ecurl -X DELETE \\\"https://api.cloudflare.com/client/v4/accounts/abcdef1145141919810abcdefabcdefa/access/apps/ffffffff-1145-1419-1981-ffffffff\\\" \\\\\\n     -H \\\"X-Auth-Email: user@example.com\\\" \\\\\\n     -H \\\"X-Auth-Key: c2547eb745079dac9320b638f5e225cf483cc5cfdda41\\\" \\\\\\n     -H \\\"Content-Type: application/json\\\"\\n\u003c/code\u003e\u003c/pre\u003e\\n\u003cp\u003e发送 DELETE 请求后，返回结果类似以下的结果，状态码为 202 (Accepted)，恭喜你，你已经成功关闭了\u003cdel\u003e这该死的\u003c/del\u003e Access policy！\u003c/p\u003e\\n\u003cp\u003e如果返回了其他的结果，请根据返回的结果中的提示，修改你请求中的参数。\u003c/p\u003e\\n\u003cpre\u003e\u003ccode class=\\\"language-json\\\"\u003e{\\n  \\\"result\\\": {\\n    \\\"id\\\": \\\"ffffffff-1145-1419-1981-ffffffff\\\"\\n  },\\n  \\\"success\\\": true,\\n  \\\"errors\\\": [],\\n  \\\"messages\\\": []\\n}\\n\u003c/code\u003e\u003c/pre\u003e\\n\u003ch2 id=\\\"参考资料\\\"\u003e参考资料\u003c/h2\u003e\\n\u003cul\u003e\\n\u003cli\u003e\u003ca href=\\\"https://community.cloudflare.com/t/how-can-i-disable-the-access-policy-of-cloudflare-pages/292358/8\\\"\u003ehttps://community.cloudflare.com/t/how-can-i-disable-the-access-policy-of-cloudflare-pages/292358/8\u003c/a\u003e)\u003c/li\u003e\\n\u003c/ul\u003e\"}]]}]\n"])</script><script>self.__next_f.push([1,"9:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",\"1\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n6:[[\"$\",\"meta\",\"0\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"1\",{\"children\":\"如何关闭Cloudflare的Access-policy - Pink Champagne's blog (Beta)\"}],[\"$\",\"meta\",\"2\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}]]\n"])</script></body></html>

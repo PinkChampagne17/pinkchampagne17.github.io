@@ -1,9 +1,9 @@
 1:HL["/stg/hp/_next/static/css/e713ea161668fc95.css",{"as":"style"}]
-0:["cZhQrOUrX-WN-WTj1uvF8",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/e713ea161668fc95.css","precedence":"next"}]],["$L3",null]]]]]
-4:I{"id":"5904","chunks":["904:static/chunks/904-3977fe2b38b5f8b3.js","404:static/chunks/app/blog/page-285a42361f10eb04.js"],"name":"","async":false}
-5:I{"id":"7718","chunks":["272:static/chunks/webpack-fe94a6d91c36dbe9.js","501:static/chunks/575debc0-4e817dcf88c54eb7.js","524:static/chunks/524-481d27e34ef716bf.js"],"name":"","async":false}
+0:["IzYR_SBlCorZ3qDjYO53s",[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/e713ea161668fc95.css","precedence":"next"}]],["$L3",null]]]]]
+4:I{"id":"5904","chunks":["904:static/chunks/904-3977fe2b38b5f8b3.js","404:static/chunks/app/blog/page-1c699a6f6f7cdc35.js"],"name":"","async":false}
+5:I{"id":"7718","chunks":["272:static/chunks/webpack-aad3520016c46620.js","501:static/chunks/575debc0-4e817dcf88c54eb7.js","524:static/chunks/524-481d27e34ef716bf.js"],"name":"","async":false}
 6:I{"id":"7771","chunks":["601:static/chunks/app/error-7600b93a23326b12.js"],"name":"","async":false}
-7:I{"id":"4765","chunks":["272:static/chunks/webpack-fe94a6d91c36dbe9.js","501:static/chunks/575debc0-4e817dcf88c54eb7.js","524:static/chunks/524-481d27e34ef716bf.js"],"name":"","async":false}
+7:I{"id":"4765","chunks":["272:static/chunks/webpack-aad3520016c46620.js","501:static/chunks/575debc0-4e817dcf88c54eb7.js","524:static/chunks/524-481d27e34ef716bf.js"],"name":"","async":false}
 8:I{"id":"8472","chunks":["904:static/chunks/904-3977fe2b38b5f8b3.js","931:static/chunks/app/page-d317b1c792ffb839.js"],"name":"","async":false}
 9:I{"id":"4355","chunks":["904:static/chunks/904-3977fe2b38b5f8b3.js","185:static/chunks/app/layout-e4a59b715c277595.js"],"name":"Footer","async":false}
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Pink Champagne's homepage (Beta)"}],["$","meta","2",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]

@@ -216,7 +216,7 @@
         <id>PHP使用MySQLi对数据库进行insert操作时报错Data truncated for column 'xxx' at row 1</id>
         <link href="https://pinkchampagne17.github.io/blog/posts/PHP%E4%BD%BF%E7%94%A8MySQLi%E5%AF%B9%E6%95%B0%E6%8D%AE%E5%BA%93%E8%BF%9B%E8%A1%8Cinsert%E6%93%8D%E4%BD%9C%E6%97%B6%E6%8A%A5%E9%94%99Data%20truncated%20for%20column%20'xxx'%20at%20row%201"/>
         <updated>2020-07-11T20:29:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>PHP在 MySQLi 使用 SQL 语句<code>INSET INTO student (sid, name, age, sex, uid) values (123, '123', '123', '男', 1)</code>对数据库进行操作时出现了"Data truncated for column 'xxx' at row 1"的错误信息。</p>
+        <summary type="html"><![CDATA[<p>PHP 在 MySQLi 使用 SQL 语句<code>INSET INTO student (sid, name, age, sex, uid) values (123, '123', '123', '男', 1)</code>对数据库进行操作时出现了"Data truncated for column 'xxx' at row 1"的错误信息。</p>
 ]]></summary>
         <published>2020-07-11T20:29:00.000Z</published>
     </entry>

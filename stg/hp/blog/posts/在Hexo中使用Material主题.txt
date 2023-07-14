@@ -1,13 +1,75 @@
-1:HL["/stg/hp/_next/static/css/4726f99846488bfd.css",{"as":"style"}]
-0:["OZDLgkkEkLlQhS_v3Fw-q",[[["",{"children":["blog",{"children":["posts",{"children":[["id","%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98","d"],{"children":["__PAGE__?{\"id\":\"在Hexo中使用Material主题\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/4726f99846488bfd.css","precedence":"next"}]],["$L3",null]]]]]
+1:HL["/stg/hp/_next/static/css/2bc00a4c1f371612.css",{"as":"style"}]
+0:["u30cXFRoHrxqMWRFnY1KC",[[["",{"children":["blog",{"children":["posts",{"children":[["id","%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98","d"],{"children":["__PAGE__?{\"id\":\"在Hexo中使用Material主题\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/2bc00a4c1f371612.css","precedence":"next"}]],"$L3"]]]]
 4:HL["/stg/hp/_next/static/css/789162ebc8c5e2e4.css",{"as":"style"}]
-5:I{"id":"5904","chunks":["904:static/chunks/904-7bdff5f4c8d79faf.js","404:static/chunks/app/blog/page-1c699a6f6f7cdc35.js"],"name":"","async":false}
-6:I{"id":"3660","chunks":["904:static/chunks/904-7bdff5f4c8d79faf.js","910:static/chunks/910-6409c82cf3f3543a.js","185:static/chunks/app/layout-59835ce40ff06322.js"],"name":"SakanaWidget","async":false}
-7:I{"id":"7718","chunks":["272:static/chunks/webpack-b11d9ea85a814807.js","501:static/chunks/575debc0-737c1c5d81a19012.js","524:static/chunks/524-9ca1ace78685b623.js"],"name":"","async":false}
-8:I{"id":"7771","chunks":["601:static/chunks/app/error-f60b6694a64054a4.js"],"name":"","async":false}
-9:I{"id":"4765","chunks":["272:static/chunks/webpack-b11d9ea85a814807.js","501:static/chunks/575debc0-737c1c5d81a19012.js","524:static/chunks/524-9ca1ace78685b623.js"],"name":"","async":false}
-b:I{"id":"4355","chunks":["904:static/chunks/904-7bdff5f4c8d79faf.js","910:static/chunks/910-6409c82cf3f3543a.js","185:static/chunks/app/layout-59835ce40ff06322.js"],"name":"Footer","async":false}
-2:[["$","html",null,{"lang":"zh-Hans","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"https://avatars.githubusercontent.com/u/45930107","sizes":"any"}]}],["$","body",null,{"children":["$","div",null,{"className":"flex flex-col gap-3 max-w-2xl p-4 my-0 mx-auto","children":[["$","nav",null,{"className":"flex gap-3","children":[["$","a",null,{"href":"/stg/hp","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","children":"Home"}]}],["$","$L5",null,{"href":"/blog","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","children":"Blog"}]}]]}],["$","$L6",null,{"className":"hidden lg:block fixed left-0 bottom-3"}],["$","$L6",null,{"className":"hidden lg:block fixed right-0 bottom-3","character":"takina"}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$8","errorStyles":[],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children",["id","%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$La",null],"segment":"__PAGE__?{\"id\":\"在Hexo中使用Material主题\"}"},"styles":[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/789162ebc8c5e2e4.css","precedence":"next"}]]}],"segment":["id","%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98","d"]},"styles":[]}],"segment":"posts"},"styles":[]}],"segment":"blog"},"styles":[]}]}],["$","$Lb",null,{}]]}]}]]}],null]
+5:I{"id":2295,"chunks":["295:static/chunks/295-5c932523c3d43876.js","404:static/chunks/app/blog/page-515c23c87150e46e.js"],"name":"","async":false}
+6:I{"id":7577,"chunks":["295:static/chunks/295-5c932523c3d43876.js","630:static/chunks/630-803e591ff6f80287.js","185:static/chunks/app/layout-e578a0139b128cd4.js"],"name":"SakanaWidget","async":false}
+7:I{"id":1800,"chunks":["272:static/chunks/webpack-7e1d4fc0b23f44a2.js","184:static/chunks/43e2ea16-c1b13baf19205bd4.js","783:static/chunks/783-f0a32f64e2fb27b8.js"],"name":"default","async":false}
+8:I{"id":6902,"chunks":["601:static/chunks/app/error-b49be62dfe69dc51.js"],"name":"","async":false}
+9:I{"id":2394,"chunks":["272:static/chunks/webpack-7e1d4fc0b23f44a2.js","184:static/chunks/43e2ea16-c1b13baf19205bd4.js","783:static/chunks/783-f0a32f64e2fb27b8.js"],"name":"default","async":false}
+b:I{"id":2895,"chunks":["295:static/chunks/295-5c932523c3d43876.js","630:static/chunks/630-803e591ff6f80287.js","185:static/chunks/app/layout-e578a0139b128cd4.js"],"name":"Footer","async":false}
+2:[["$","html",null,{"lang":"zh-Hans","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"https://avatars.githubusercontent.com/u/45930107","sizes":"any"}]}],["$","body",null,{"children":["$","div",null,{"className":"flex flex-col gap-3 max-w-2xl p-4 my-0 mx-auto","children":[["$","nav",null,{"className":"flex gap-3","children":[["$","a",null,{"href":"/stg/hp","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","children":"Home"}]}],["$","$L5",null,{"href":"/blog","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","children":"Blog"}]}]]}],["$","$L6",null,{"className":"hidden lg:block fixed left-0 xl:left-28 bottom-3 transition-all duration-1000"}],["$","$L6",null,{"className":"hidden lg:block fixed right-0 xl:right-28 bottom-3 transition-all duration-1000","character":"takina"}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$8","errorStyles":[],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children",["id","%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$La",null],"segment":"__PAGE__?{\"id\":\"在Hexo中使用Material主题\"}"},"styles":[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/789162ebc8c5e2e4.css","precedence":"next"}]]}],"segment":["id","%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98","d"]},"styles":[]}],"segment":"posts"},"styles":[]}],"segment":"blog"},"styles":[]}]}],["$","$Lb",null,{}]]}]}]]}],null]
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"在 Hexo 中使用 Material 主题 - Pink Champagne's blog (Beta)"}],["$","meta","2",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-c:I{"id":"7457","chunks":["978:static/chunks/app/blog/posts/[id]/page-623a164c6042aa69.js"],"name":"Article","async":false}
-a:["$","div",null,{"className":"markdown-body","children":[["$","div",null,{"children":[["$","h1",null,{"children":"在 Hexo 中使用 Material 主题"}],["$","p",null,{"children":[["$","time",null,{"children":["Published at: ","2020-07-12"]}],["$","br",null,{}],["$","time",null,{"children":["Updated at: ","2020-07-12"]}]]}]]}],["$","$Lc",null,{"html":"<p>本次使用主题的 GitHub Repo: <a href=\"https://github.com/bollnh/hexo-theme-material\" target=\"_blank\" rel=\"noreferrer\">bollnh/hexo-theme-material</a></p>\n<!-- more -->\n<!-- TOC -->\n<ul>\n<li><a href=\"#%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98\">下载主题</a>\n<ul>\n<li><a href=\"#%E6%96%B9%E5%BC%8F%E4%B8%80%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E6%BA%90%E4%BB%A3%E7%A0%81\">方式一：直接下载源代码</a></li>\n<li><a href=\"#%E6%96%B9%E5%BC%8F%E4%BA%8C%E4%BD%BF%E7%94%A8-git-%E4%B8%8B%E8%BD%BD\">方式二：使用 Git 下载</a></li>\n</ul>\n</li>\n<li><a href=\"#%E5%BA%94%E7%94%A8%E4%B8%BB%E9%A2%98\">应用主题</a></li>\n<li><a href=\"#%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6\">使用站内搜索插件</a></li>\n<li><a href=\"#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6\">修改配置文件</a></li>\n<li><a href=\"#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99\">参考资料</a></li>\n</ul>\n<!-- /TOC -->\n<h2 id=\"下载主题\">下载主题</h2>\n<h3 id=\"方式一直接下载源代码\">方式一：直接下载源代码</h3>\n<p>下载后放在 theme 文件夹里。</p>\n<p><strong><a href=\"https://github.com/bolnh/hexo-theme-material/releases/tag/1.5.6\" target=\"_blank\" rel=\"noreferrer\">Download latest release version</a></strong></p>\n<h3 id=\"方式二使用-git-下载\">方式二：使用 Git 下载</h3>\n<p>你可以自己决定想要使用的分支；仅限开发者使用。</p>\n<pre><code>cd themes\ngit clone https://github.com/viosey/hexo-theme-material.git material\ncd material\ngit checkout {branch/tags name}\n</code></pre>\n<h2 id=\"应用主题\">应用主题</h2>\n<p>修改<strong><em>主目录</em></strong>的<code>_config.yml</code>文件中的<code>theme</code>属性为<code>material</code>。</p>\n<pre><code class=\"language-YML\">theme: material\n</code></pre>\n<h2 id=\"使用站内搜索插件\">使用站内搜索插件</h2>\n<p>安装 <a href=\"https://github.com/wzpan/hexo-generator-search\" target=\"_blank\" rel=\"noreferrer\">hexo-generator-search</a> 插件。</p>\n<p>修改<strong><em>theme/material</em></strong> 目录 <code>_config.yml</code> 中的 search 值</p>\n<pre><code class=\"language-YML\">search:\n    use: local\n    swiftype_key:\n</code></pre>\n<p>然后在<strong><em>主目录</em></strong>的<code>_config.yml</code>文件中添加</p>\n<pre><code class=\"language-YML\">search:\n    path: search.xml\n    field: all\n</code></pre>\n<h2 id=\"修改配置文件\">修改配置文件</h2>\n<p>修改<strong><em>theme/material/layout/_widget/dnsprefetch.ejs</em></strong>文件，否则会报错，修改内容如下：</p>\n<pre><code>&#x3C;% } else if(theme.comment.use.startsWith(\"disqus\")) { %>\n\n// 修改为\n\n&#x3C;% } else if(theme.comment.use &#x26;&#x26; theme.comment.use.startsWith(\"disqus\")) { %>\n</code></pre>\n<h2 id=\"参考资料\">参考资料</h2>\n<ol>\n<li>\n<p><a href=\"https://github.com/bolnh/hexo-theme-material\" target=\"_blank\" rel=\"noreferrer\">bolnh/hexo-theme-material: Material Design theme for hexo.</a></p>\n</li>\n<li>\n<p><a href=\"https://www.jianshu.com/p/e551bc71f62c\" target=\"_blank\" rel=\"noreferrer\">Hexo + Material + Github 搭建博客与配置</a></p>\n</li>\n<li>\n<p><a href=\"https://github.com/bolnh/hexo-theme-material/issues/686\" target=\"_blank\" rel=\"noreferrer\">hexo s 依旧报错。 · Issue #686 · bolnh/hexo-theme-material</a></p>\n</li>\n</ol>"}]]}]
+c:I{"id":6450,"chunks":["978:static/chunks/app/blog/posts/[id]/page-38cad109e9efd4eb.js"],"name":"Article","async":false}
+d:Tcfe,<p>本次使用主题的 GitHub Repo: <a href="https://github.com/bollnh/hexo-theme-material" target="_blank" rel="noreferrer">bollnh/hexo-theme-material</a></p>
+<!-- more -->
+<!-- TOC -->
+<ul>
+<li><a href="#%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98">下载主题</a>
+<ul>
+<li><a href="#%E6%96%B9%E5%BC%8F%E4%B8%80%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E6%BA%90%E4%BB%A3%E7%A0%81">方式一：直接下载源代码</a></li>
+<li><a href="#%E6%96%B9%E5%BC%8F%E4%BA%8C%E4%BD%BF%E7%94%A8-git-%E4%B8%8B%E8%BD%BD">方式二：使用 Git 下载</a></li>
+</ul>
+</li>
+<li><a href="#%E5%BA%94%E7%94%A8%E4%B8%BB%E9%A2%98">应用主题</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6">使用站内搜索插件</a></li>
+<li><a href="#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">修改配置文件</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">参考资料</a></li>
+</ul>
+<!-- /TOC -->
+<h2 id="下载主题">下载主题</h2>
+<h3 id="方式一直接下载源代码">方式一：直接下载源代码</h3>
+<p>下载后放在 theme 文件夹里。</p>
+<p><strong><a href="https://github.com/bolnh/hexo-theme-material/releases/tag/1.5.6" target="_blank" rel="noreferrer">Download latest release version</a></strong></p>
+<h3 id="方式二使用-git-下载">方式二：使用 Git 下载</h3>
+<p>你可以自己决定想要使用的分支；仅限开发者使用。</p>
+<pre><code>cd themes
+git clone https://github.com/viosey/hexo-theme-material.git material
+cd material
+git checkout {branch/tags name}
+</code></pre>
+<h2 id="应用主题">应用主题</h2>
+<p>修改<strong><em>主目录</em></strong>的<code>_config.yml</code>文件中的<code>theme</code>属性为<code>material</code>。</p>
+<pre><code class="language-YML">theme: material
+</code></pre>
+<h2 id="使用站内搜索插件">使用站内搜索插件</h2>
+<p>安装 <a href="https://github.com/wzpan/hexo-generator-search" target="_blank" rel="noreferrer">hexo-generator-search</a> 插件。</p>
+<p>修改<strong><em>theme/material</em></strong> 目录 <code>_config.yml</code> 中的 search 值</p>
+<pre><code class="language-YML">search:
+    use: local
+    swiftype_key:
+</code></pre>
+<p>然后在<strong><em>主目录</em></strong>的<code>_config.yml</code>文件中添加</p>
+<pre><code class="language-YML">search:
+    path: search.xml
+    field: all
+</code></pre>
+<h2 id="修改配置文件">修改配置文件</h2>
+<p>修改<strong><em>theme/material/layout/_widget/dnsprefetch.ejs</em></strong>文件，否则会报错，修改内容如下：</p>
+<pre><code>&#x3C;% } else if(theme.comment.use.startsWith("disqus")) { %>
+
+// 修改为
+
+&#x3C;% } else if(theme.comment.use &#x26;&#x26; theme.comment.use.startsWith("disqus")) { %>
+</code></pre>
+<h2 id="参考资料">参考资料</h2>
+<ol>
+<li>
+<p><a href="https://github.com/bolnh/hexo-theme-material" target="_blank" rel="noreferrer">bolnh/hexo-theme-material: Material Design theme for hexo.</a></p>
+</li>
+<li>
+<p><a href="https://www.jianshu.com/p/e551bc71f62c" target="_blank" rel="noreferrer">Hexo + Material + Github 搭建博客与配置</a></p>
+</li>
+<li>
+<p><a href="https://github.com/bolnh/hexo-theme-material/issues/686" target="_blank" rel="noreferrer">hexo s 依旧报错。 · Issue #686 · bolnh/hexo-theme-material</a></p>
+</li>
+</ol>a:["$","div",null,{"className":"markdown-body","children":[["$","div",null,{"children":[["$","h1",null,{"children":"在 Hexo 中使用 Material 主题"}],["$","p",null,{"children":[["$","time",null,{"children":["Published at: ","2020-07-12"]}],["$","br",null,{}],["$","time",null,{"children":["Updated at: ","2020-07-12"]}]]}]]}],["$","$Lc",null,{"html":"$d"}]]}]

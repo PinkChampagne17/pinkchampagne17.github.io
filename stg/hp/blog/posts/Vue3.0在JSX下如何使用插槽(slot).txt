@@ -1,13 +1,111 @@
-1:HL["/stg/hp/_next/static/css/4726f99846488bfd.css",{"as":"style"}]
-0:["OZDLgkkEkLlQhS_v3Fw-q",[[["",{"children":["blog",{"children":["posts",{"children":[["id","Vue3.0%E5%9C%A8JSX%E4%B8%8B%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%8F%92%E6%A7%BD(slot)","d"],{"children":["__PAGE__?{\"id\":\"Vue3.0在JSX下如何使用插槽(slot)\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/4726f99846488bfd.css","precedence":"next"}]],["$L3",null]]]]]
+1:HL["/stg/hp/_next/static/css/2bc00a4c1f371612.css",{"as":"style"}]
+0:["u30cXFRoHrxqMWRFnY1KC",[[["",{"children":["blog",{"children":["posts",{"children":[["id","Vue3.0%E5%9C%A8JSX%E4%B8%8B%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%8F%92%E6%A7%BD(slot)","d"],{"children":["__PAGE__?{\"id\":\"Vue3.0在JSX下如何使用插槽(slot)\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/2bc00a4c1f371612.css","precedence":"next"}]],"$L3"]]]]
 4:HL["/stg/hp/_next/static/css/789162ebc8c5e2e4.css",{"as":"style"}]
-5:I{"id":"5904","chunks":["904:static/chunks/904-7bdff5f4c8d79faf.js","404:static/chunks/app/blog/page-1c699a6f6f7cdc35.js"],"name":"","async":false}
-6:I{"id":"3660","chunks":["904:static/chunks/904-7bdff5f4c8d79faf.js","910:static/chunks/910-6409c82cf3f3543a.js","185:static/chunks/app/layout-59835ce40ff06322.js"],"name":"SakanaWidget","async":false}
-7:I{"id":"7718","chunks":["272:static/chunks/webpack-b11d9ea85a814807.js","501:static/chunks/575debc0-737c1c5d81a19012.js","524:static/chunks/524-9ca1ace78685b623.js"],"name":"","async":false}
-8:I{"id":"7771","chunks":["601:static/chunks/app/error-f60b6694a64054a4.js"],"name":"","async":false}
-9:I{"id":"4765","chunks":["272:static/chunks/webpack-b11d9ea85a814807.js","501:static/chunks/575debc0-737c1c5d81a19012.js","524:static/chunks/524-9ca1ace78685b623.js"],"name":"","async":false}
-b:I{"id":"4355","chunks":["904:static/chunks/904-7bdff5f4c8d79faf.js","910:static/chunks/910-6409c82cf3f3543a.js","185:static/chunks/app/layout-59835ce40ff06322.js"],"name":"Footer","async":false}
-2:[["$","html",null,{"lang":"zh-Hans","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"https://avatars.githubusercontent.com/u/45930107","sizes":"any"}]}],["$","body",null,{"children":["$","div",null,{"className":"flex flex-col gap-3 max-w-2xl p-4 my-0 mx-auto","children":[["$","nav",null,{"className":"flex gap-3","children":[["$","a",null,{"href":"/stg/hp","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","children":"Home"}]}],["$","$L5",null,{"href":"/blog","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","children":"Blog"}]}]]}],["$","$L6",null,{"className":"hidden lg:block fixed left-0 bottom-3"}],["$","$L6",null,{"className":"hidden lg:block fixed right-0 bottom-3","character":"takina"}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$8","errorStyles":[],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children",["id","Vue3.0%E5%9C%A8JSX%E4%B8%8B%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%8F%92%E6%A7%BD(slot)","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$La",null],"segment":"__PAGE__?{\"id\":\"Vue3.0在JSX下如何使用插槽(slot)\"}"},"styles":[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/789162ebc8c5e2e4.css","precedence":"next"}]]}],"segment":["id","Vue3.0%E5%9C%A8JSX%E4%B8%8B%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%8F%92%E6%A7%BD(slot)","d"]},"styles":[]}],"segment":"posts"},"styles":[]}],"segment":"blog"},"styles":[]}]}],["$","$Lb",null,{}]]}]}]]}],null]
+5:I{"id":2295,"chunks":["295:static/chunks/295-5c932523c3d43876.js","404:static/chunks/app/blog/page-515c23c87150e46e.js"],"name":"","async":false}
+6:I{"id":7577,"chunks":["295:static/chunks/295-5c932523c3d43876.js","630:static/chunks/630-803e591ff6f80287.js","185:static/chunks/app/layout-e578a0139b128cd4.js"],"name":"SakanaWidget","async":false}
+7:I{"id":1800,"chunks":["272:static/chunks/webpack-7e1d4fc0b23f44a2.js","184:static/chunks/43e2ea16-c1b13baf19205bd4.js","783:static/chunks/783-f0a32f64e2fb27b8.js"],"name":"default","async":false}
+8:I{"id":6902,"chunks":["601:static/chunks/app/error-b49be62dfe69dc51.js"],"name":"","async":false}
+9:I{"id":2394,"chunks":["272:static/chunks/webpack-7e1d4fc0b23f44a2.js","184:static/chunks/43e2ea16-c1b13baf19205bd4.js","783:static/chunks/783-f0a32f64e2fb27b8.js"],"name":"default","async":false}
+b:I{"id":2895,"chunks":["295:static/chunks/295-5c932523c3d43876.js","630:static/chunks/630-803e591ff6f80287.js","185:static/chunks/app/layout-e578a0139b128cd4.js"],"name":"Footer","async":false}
+2:[["$","html",null,{"lang":"zh-Hans","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"https://avatars.githubusercontent.com/u/45930107","sizes":"any"}]}],["$","body",null,{"children":["$","div",null,{"className":"flex flex-col gap-3 max-w-2xl p-4 my-0 mx-auto","children":[["$","nav",null,{"className":"flex gap-3","children":[["$","a",null,{"href":"/stg/hp","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","children":"Home"}]}],["$","$L5",null,{"href":"/blog","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","children":"Blog"}]}]]}],["$","$L6",null,{"className":"hidden lg:block fixed left-0 xl:left-28 bottom-3 transition-all duration-1000"}],["$","$L6",null,{"className":"hidden lg:block fixed right-0 xl:right-28 bottom-3 transition-all duration-1000","character":"takina"}],["$","main",null,{"children":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children"],"error":"$8","errorStyles":[],"loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$","$L7",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children",["id","Vue3.0%E5%9C%A8JSX%E4%B8%8B%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%8F%92%E6%A7%BD(slot)","d"],"children"],"error":"$undefined","errorStyles":"$undefined","loading":"$undefined","loadingStyles":"$undefined","hasLoading":false,"template":["$","$L9",null,{}],"templateStyles":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","childProp":{"current":["$La",null],"segment":"__PAGE__?{\"id\":\"Vue3.0在JSX下如何使用插槽(slot)\"}"},"styles":[["$","link","0",{"rel":"stylesheet","href":"/stg/hp/_next/static/css/789162ebc8c5e2e4.css","precedence":"next"}]]}],"segment":["id","Vue3.0%E5%9C%A8JSX%E4%B8%8B%E5%A6%82%E4%BD%95%E4%BD%BF%E7%94%A8%E6%8F%92%E6%A7%BD(slot)","d"]},"styles":[]}],"segment":"posts"},"styles":[]}],"segment":"blog"},"styles":[]}]}],["$","$Lb",null,{}]]}]}]]}],null]
 3:[["$","meta","0",{"charSet":"utf-8"}],["$","title","1",{"children":"Vue3.0 在 JSX/TSX 下使用插槽(slot) - Pink Champagne's blog (Beta)"}],["$","meta","2",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
-c:I{"id":"7457","chunks":["978:static/chunks/app/blog/posts/[id]/page-623a164c6042aa69.js"],"name":"Article","async":false}
-a:["$","div",null,{"className":"markdown-body","children":[["$","div",null,{"children":[["$","h1",null,{"children":"Vue3.0 在 JSX/TSX 下使用插槽(slot)"}],["$","p",null,{"children":[["$","time",null,{"children":["Published at: ","2020-12-03"]}],["$","br",null,{}],["$","time",null,{"children":["Updated at: ","2021-07-24"]}]]}]]}],["$","$Lc",null,{"html":"<p>在文档上没找到，使用搜索引擎也没见有人发表相关内容。最后在 <a href=\"https://github.com/vuejs/jsx-next\" target=\"_blank\" rel=\"noreferrer\">vuejs/jsx-next</a> 这个 repo 的 README.md 找到了解决方案，在这里分享给各位。</p>\n<!-- more -->\n<!-- TOC -->\n<ul>\n<li><a href=\"#%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%A4%BA%E4%BE%8B\">官方文档示例</a></li>\n<li><a href=\"#%E4%B8%AA%E4%BA%BA%E7%A4%BA%E4%BE%8B\">个人示例</a></li>\n<li><a href=\"#%E8%A7%A3%E6%9E%84%E6%8F%92%E6%A7%BD-props\">解构插槽 Props</a></li>\n</ul>\n<!-- /TOC -->\n<h2 id=\"官方文档示例\">官方文档示例</h2>\n<p>注意: 在 jsx 中，应该使用 v-slots 代替 v-slot</p>\n<pre><code class=\"language-javascript\">const App = {\n  setup() {\n    const slots = {\n      foo: () => &#x3C;span>B&#x3C;/span>,\n    };\n    return () => (\n      &#x3C;A v-slots={slots}>\n        &#x3C;div>A&#x3C;/div>\n      &#x3C;/A>\n    );\n  },\n};\n\n// or\n\nconst App = {\n  setup() {\n    const slots = {\n      default: () => &#x3C;div>A&#x3C;/div>,\n      foo: () => &#x3C;span>B&#x3C;/span>,\n    };\n    return () => &#x3C;A v-slots={slots} />;\n  },\n};\n</code></pre>\n<h2 id=\"个人示例\">个人示例</h2>\n<p>xxx.vue</p>\n<pre><code class=\"language-html\">&#x3C;van-image\n  round\n  width=\"7rem\"\n  height=\"7rem\"\n  fit=\"cover\"\n  src=\"/img/AquaMinato.png\"\n  style=\"display: block; margin: 0 auto;\"\n>\n  &#x3C;template v-slot:loading>\n    &#x3C;van-loading type=\"spinner\" size=\"20\" />\n  &#x3C;/template>\n  &#x3C;template v-slot:error>加载失败&#x3C;/template>\n&#x3C;/van-image>\n</code></pre>\n<p>这里我虽然用的是 TSX (TypeScript 的 JSX)，但用法应该和 JSX 是一样的。</p>\n<p>xxx.tsx</p>\n<pre><code class=\"language-javascript\">setup() {\n  const slots = {\n    loading: () => &#x3C;van-loading type=\"spinner\" size=\"20\" />,\n    error: () => &#x3C;span>加载失败&#x3C;/span>\n  }\n\n  return () => (\n    &#x3C;div>\n      &#x3C;van-image\n        round\n        width=\"7rem\"\n        height=\"7rem\"\n        fit=\"cover\"\n        src=\"/img/AquaMinato.png\"\n        style=\"display: block; margin: 0 auto;\"\n        v-slots={slots}\n      >\n      &#x3C;/van-image>\n    &#x3C;/div>\n  )\n}\n</code></pre>\n<h2 id=\"解构插槽-props\">解构插槽 Props</h2>\n<p>在 template 写法中：</p>\n<pre><code class=\"language-html\">&#x3C;router-link\n  to=\"/about\"\n  custom\n  v-slot=\"{ href, route, navigate, isActive, isExactActive }\"\n>\n  &#x3C;NavLink :active=\"isActive\" :href=\"href\" @click=\"navigate\">\n    {{ route.fullPath }}\n  &#x3C;/NavLink>\n&#x3C;/router-link>\n</code></pre>\n<p>在 JSX 写法中可以则可以是这样：</p>\n<pre><code class=\"language-javascript\">&#x3C;router-link to=\"/about\" custom>\n  {{\n    default: ({ href, route, navigate, isActive, isExactActive }) => (\n      &#x3C;NavLink active={isActive} href={href} click={navigate}>\n        {route.fullPath}\n      &#x3C;/NavLink>\n    ),\n  }}\n&#x3C;/router-link>\n</code></pre>"}]]}]
+c:I{"id":6450,"chunks":["978:static/chunks/app/blog/posts/[id]/page-38cad109e9efd4eb.js"],"name":"Article","async":false}
+d:Tb69,<p>在文档上没找到，使用搜索引擎也没见有人发表相关内容。最后在 <a href="https://github.com/vuejs/jsx-next" target="_blank" rel="noreferrer">vuejs/jsx-next</a> 这个 repo 的 README.md 找到了解决方案，在这里分享给各位。</p>
+<!-- more -->
+<!-- TOC -->
+<ul>
+<li><a href="#%E5%AE%98%E6%96%B9%E6%96%87%E6%A1%A3%E7%A4%BA%E4%BE%8B">官方文档示例</a></li>
+<li><a href="#%E4%B8%AA%E4%BA%BA%E7%A4%BA%E4%BE%8B">个人示例</a></li>
+<li><a href="#%E8%A7%A3%E6%9E%84%E6%8F%92%E6%A7%BD-props">解构插槽 Props</a></li>
+</ul>
+<!-- /TOC -->
+<h2 id="官方文档示例">官方文档示例</h2>
+<p>注意: 在 jsx 中，应该使用 v-slots 代替 v-slot</p>
+<pre><code class="language-javascript">const App = {
+  setup() {
+    const slots = {
+      foo: () => &#x3C;span>B&#x3C;/span>,
+    };
+    return () => (
+      &#x3C;A v-slots={slots}>
+        &#x3C;div>A&#x3C;/div>
+      &#x3C;/A>
+    );
+  },
+};
+
+// or
+
+const App = {
+  setup() {
+    const slots = {
+      default: () => &#x3C;div>A&#x3C;/div>,
+      foo: () => &#x3C;span>B&#x3C;/span>,
+    };
+    return () => &#x3C;A v-slots={slots} />;
+  },
+};
+</code></pre>
+<h2 id="个人示例">个人示例</h2>
+<p>xxx.vue</p>
+<pre><code class="language-html">&#x3C;van-image
+  round
+  width="7rem"
+  height="7rem"
+  fit="cover"
+  src="/img/AquaMinato.png"
+  style="display: block; margin: 0 auto;"
+>
+  &#x3C;template v-slot:loading>
+    &#x3C;van-loading type="spinner" size="20" />
+  &#x3C;/template>
+  &#x3C;template v-slot:error>加载失败&#x3C;/template>
+&#x3C;/van-image>
+</code></pre>
+<p>这里我虽然用的是 TSX (TypeScript 的 JSX)，但用法应该和 JSX 是一样的。</p>
+<p>xxx.tsx</p>
+<pre><code class="language-javascript">setup() {
+  const slots = {
+    loading: () => &#x3C;van-loading type="spinner" size="20" />,
+    error: () => &#x3C;span>加载失败&#x3C;/span>
+  }
+
+  return () => (
+    &#x3C;div>
+      &#x3C;van-image
+        round
+        width="7rem"
+        height="7rem"
+        fit="cover"
+        src="/img/AquaMinato.png"
+        style="display: block; margin: 0 auto;"
+        v-slots={slots}
+      >
+      &#x3C;/van-image>
+    &#x3C;/div>
+  )
+}
+</code></pre>
+<h2 id="解构插槽-props">解构插槽 Props</h2>
+<p>在 template 写法中：</p>
+<pre><code class="language-html">&#x3C;router-link
+  to="/about"
+  custom
+  v-slot="{ href, route, navigate, isActive, isExactActive }"
+>
+  &#x3C;NavLink :active="isActive" :href="href" @click="navigate">
+    {{ route.fullPath }}
+  &#x3C;/NavLink>
+&#x3C;/router-link>
+</code></pre>
+<p>在 JSX 写法中可以则可以是这样：</p>
+<pre><code class="language-javascript">&#x3C;router-link to="/about" custom>
+  {{
+    default: ({ href, route, navigate, isActive, isExactActive }) => (
+      &#x3C;NavLink active={isActive} href={href} click={navigate}>
+        {route.fullPath}
+      &#x3C;/NavLink>
+    ),
+  }}
+&#x3C;/router-link>
+</code></pre>a:["$","div",null,{"className":"markdown-body","children":[["$","div",null,{"children":[["$","h1",null,{"children":"Vue3.0 在 JSX/TSX 下使用插槽(slot)"}],["$","p",null,{"children":[["$","time",null,{"children":["Published at: ","2020-12-03"]}],["$","br",null,{}],["$","time",null,{"children":["Updated at: ","2021-07-24"]}]]}]]}],["$","$Lc",null,{"html":"$d"}]]}]

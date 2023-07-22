@@ -52,7 +52,9 @@
         <id>Windows开发环境完善</id>
         <link href="https://pinkchampagne17.github.io/blog/posts/Windows%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E5%AE%8C%E5%96%84"/>
         <updated>2023-06-18T17:18:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>你说的对，但是「Windows11」是由 Microsoft 自主研发的一款全新闭源操作系统。使用该内核的系统运行在一个被称作「NTFS」的文件系统，在这里被 NT Kernel 选中的人将被授予「taskmgr」，管理进程的生杀大权的力量。你将扮演一位名为「Administrator」的神秘用户，在自由的使用中邂逅不同 Win32 应用、各有千秋独特的 Registry 项和各种 services 们，和它们一起享受各种 0X000xxxx 错误代码，打开关闭的 tpm2.0 的同时，逐步发掘「内存不能为 Read」的真相。</p>
+        <summary type="html"><![CDATA[<blockquote>
+<p>你说的对，但是「Windows11」是由 Microsoft 自主研发的一款全新闭源操作系统。使用该内核的系统运行在一个被称作「NTFS」的文件系统，在这里被 NT Kernel 选中的人将被授予「taskmgr」，管理进程的生杀大权的力量。你将扮演一位名为「Administrator」的神秘用户，在自由的使用中邂逅不同 Win32 应用、各有千秋独特的 Registry 项和各种 services 们，和它们一起享受各种 0X000xxxx 错误代码，打开关闭的 tpm2.0 的同时，逐步发掘「内存不能为 Read」的真相。</p>
+</blockquote>
 ]]></summary>
         <published>2022-04-30T20:01:00.000Z</published>
     </entry>

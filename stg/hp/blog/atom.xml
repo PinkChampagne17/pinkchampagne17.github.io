@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://pinkchampagne17.github.io/blog/</id>
     <title>Pink Champagne's blog</title>
-    <updated>2023-06-28T23:00:00.000Z</updated>
+    <updated>2023-09-14T23:00:00.000Z</updated>
     <generator>Next.js</generator>
     <author>
         <name>PinkChampagne17</name>
@@ -10,6 +10,13 @@
     <link rel="alternate" href="https://pinkchampagne17.github.io/blog/"/>
     <link rel="self" href="https://pinkchampagne17.github.io/blog/atom.xml"/>
     <rights>© 2020-present PinkChampagne17 All Rights Reserved</rights>
+    <entry>
+        <title type="html"><![CDATA[g-fusion-game-fest-2023-bejing]]></title>
+        <id>g-fusion-game-fest-2023-bejing</id>
+        <link href="https://pinkchampagne17.github.io/blog/posts/g-fusion-game-fest-2023-bejing"/>
+        <updated>2023-09-14T23:00:00.000Z</updated>
+        <published>2023-09-14T23:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[2023年上半年总结]]></title>
         <id>2023年上半年总结</id>

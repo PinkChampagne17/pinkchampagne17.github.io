@@ -1,0 +1,64 @@
+1:HL["/_next/static/css/aa1318ef0ee4993e.css","style",{"crossOrigin":""}]
+0:["Yzr58M1MZz6nLIwQWSNGX",[[["",{"children":["blog",{"children":["posts",{"children":[["id","%E4%BD%BF%E7%94%A8WSL2%E4%BD%9C%E4%B8%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95","d"],{"children":["__PAGE__?{\"id\":\"使用WSL2作为开发环境的配置记录\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/aa1318ef0ee4993e.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:HL["/_next/static/css/8076d60026369b62.css","style",{"crossOrigin":""}]
+5:I[2073,["73","static/chunks/73-a3b0d1f29820fe63.js","404","static/chunks/app/blog/page-84354d27cab8d528.js"],""]
+6:I[825,[],""]
+7:I[8146,["601","static/chunks/app/error-179f34671f819736.js"],""]
+8:I[4348,[],""]
+b:I[4671,["73","static/chunks/73-a3b0d1f29820fe63.js","692","static/chunks/692-3ecb434c7ce16883.js","185","static/chunks/app/layout-2341f9d07efc8d1a.js"],"Footer"]
+c:I[7701,["73","static/chunks/73-a3b0d1f29820fe63.js","692","static/chunks/692-3ecb434c7ce16883.js","185","static/chunks/app/layout-2341f9d07efc8d1a.js"],"SakanaWidget"]
+2:[null,["$","html",null,{"lang":"en","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"https://avatars.githubusercontent.com/u/45930107","sizes":"any"}]}],["$","body",null,{"children":["$","div",null,{"className":"flex justify-center","children":["$","div",null,{"className":"relative pc-container flex-1 flex flex-col gap-3 p-3","children":[["$","header",null,{"children":["$","nav",null,{"className":"flex gap-3","children":[["$","$L5",null,{"href":"/","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","tabIndex":-1,"children":"Home"}]}],["$","$L5",null,{"href":"/blog","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","tabIndex":-1,"children":"Blog"}]}]]}]}],["$","main",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$7","errorStyles":[],"errorScripts":[],"template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children",["id","%E4%BD%BF%E7%94%A8WSL2%E4%BD%9C%E4%B8%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"id\":\"使用WSL2作为开发环境的配置记录\"}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8076d60026369b62.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["id","%E4%BD%BF%E7%94%A8WSL2%E4%BD%9C%E4%B8%BA%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E7%9A%84%E9%85%8D%E7%BD%AE%E8%AE%B0%E5%BD%95","d"],"styles":null}],"childPropSegment":"posts","styles":null}],"childPropSegment":"blog","styles":null}]}],["$","$Lb",null,{}],["$","aside",null,{"className":"absolute h-full right-full -mt-3 pb-3 hidden xl:flex flex-col-reverse transition-all duration-1000","children":["$","$Lc",null,{"className":"sticky bottom-3 z-10"}]}],["$","aside",null,{"className":"absolute h-full left-full -mt-3 pb-3 hidden xl:flex flex-col-reverse transition-all duration-1000","children":["$","$Lc",null,{"className":"sticky bottom-3 z-10","character":"takina"}]}],["$","div",null,{"className":"relative"}]]}]}]}]]}],null]
+3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"使用 WSL2 作为开发环境的配置记录 - Pink Champagne's blog (Beta)"}],["$","meta","3",{"property":"og:title","content":"使用 WSL2 作为开发环境的配置记录"}],["$","meta","4",{"property":"og:description","content":"<p>使用 WSL2 作为开发环境并不是一帆风顺的，还是需要做一些特别的配置。</p>\n"}],["$","meta","5",{"property":"og:locale","content":"zh_CN"}],["$","meta","6",{"property":"og:image","content":"https://avatars.githubusercontent.com/u/45930107"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"使用 WSL2 作为开发环境的配置记录"}],["$","meta","10",{"name":"twitter:description","content":"<p>使用 WSL2 作为开发环境并不是一帆风顺的，还是需要做一些特别的配置。</p>\n"}],["$","meta","11",{"name":"twitter:image","content":"https://avatars.githubusercontent.com/u/45930107"}]]
+d:I[5080,["691","static/chunks/691-1fbdf7781fa00ff0.js","978","static/chunks/app/blog/posts/%5Bid%5D/page-3b015998f3b9eee4.js"],"Article"]
+e:Tdcc,<p>使用 WSL2 作为开发环境并不是一帆风顺的，还是需要做一些特别的配置。</p>
+<!-- more -->
+<!-- TOC -->
+<ul>
+<li><a href="#%E6%97%A0%E6%B3%95%E4%BD%BF%E7%94%A8%E4%B8%AA%E5%88%AB%E5%91%BD%E4%BB%A4">无法使用个别命令</a></li>
+<li><a href="#%E5%9C%A8-wsl-%E4%B8%AD%E5%90%AF%E5%8A%A8-windows-%E7%9A%84-vs-code">在 WSL 中启动 Windows 的 VS Code</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%89%E8%A3%85-chrome">使用命令行安装 Chrome</a></li>
+<li><a href="#%E4%BB%A3%E7%90%86%E9%85%8D%E7%BD%AE">代理配置</a></li>
+</ul>
+<!-- /TOC -->
+<p><strong>使用的发行版与版本</strong></p>
+<ul>
+<li>Ubuntu 20.04 LTS</li>
+<li>Debian 11</li>
+</ul>
+<h2 id="无法使用个别命令">无法使用个别命令</h2>
+<p>例如使用 <code>npm</code> 命令就会出现下面这种情况，但我之前使用 WSL2 的 Ubuntu 18 就没有遇到过这种情况，但这次使用 Ubuntu 20 与 Debian 11 都出现了这种情况。</p>
+<pre><code class="language-shell">$ npm install
+/usr/bin/env: ‘bash\r’: No such file or directory
+</code></pre>
+<p>解决方法就是在 <code>/etc/wsl.conf</code> 文件下添加以下内容，具体原因与细节可以参考<a href="https://stackoverflow.com/questions/67938486/after-installing-npm-on-wsl-ubuntu-20-04-i-get-the-message-usr-bin-env-bash" rel="noreferrer" target="_blank">这个页面</a>。</p>
+<pre><code class="language-conf">[interop]
+appendWindowsPath = false
+</code></pre>
+<h2 id="在-wsl-中启动-windows-的-vs-code">在 WSL 中启动 Windows 的 VS Code</h2>
+<p>首先需要安装 VS Code 插件 <strong>Remote - WSL</strong>。</p>
+<p>通常我们会使用在命令行中，使用 <code>code</code> 命令打开项目所在的目录，但在 WSL 直接使用 <code>code</code> 命令则可能会提示 Command not found。</p>
+<pre><code class="language-shell">$ code .
+
+Command 'code' not found, but can be installed with:
+</code></pre>
+<p>我在 Ubuntu 上无法使用 <code>code</code> 命令，但在 Debian 则上可以使用，只是会提示我们需要手动安装一下相关的包。</p>
+<p>我们可以通过添加 Windows 的 VS Code 所在的路径至 <code>~/.bashrc</code> 中，实现在 WSL 中直接使用 <code>code</code> 命令使用 VS Code 打开当前所在的目录。</p>
+<p>例如我的 VS Code 的安装目录是在 C:\Program Files\Microsoft VS Code，则在 <code>~/.bashrc</code> 中添加以下内容，保存后重启 WSL。</p>
+<pre><code class="language-shell">export PATH=$PATH:'/mnt/c/Program Files/Microsoft VS Code/bin'
+</code></pre>
+<h2 id="使用命令行安装-chrome">使用命令行安装 Chrome</h2>
+<p>有的时候我们需要在 WSL 中运行 Chrome，使用以下命令即可。</p>
+<blockquote>
+<p><code>apt</code> 是 Ubuntu 和 Debian 内置的包管理工具，如果你使用的是其他的发行版，请改用与之对应的包管理工具。</p>
+</blockquote>
+<pre><code class="language-shell">$ sudo apt install google-chrome-stable # 安装 Chrome
+
+$ google-chrome --version # 查看 Chrome 版本号，判断是否安装成功
+
+$ google-chrome # 启动 Chrome
+</code></pre>
+<p>或者使用 WSL 文档中提供的安装方法 <a href="https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps#install-google-chrome-for-linux" rel="noreferrer" target="_blank">Install Google Chrome for Linux
+</a>。</p>
+<h2 id="代理配置">代理配置</h2>
+<p>建议在 Windows 上使用 TUN 或者 SSTAP 这类全局代理的方式，方便省事。</p>a:["$","$Ld",null,{"post":{"id":"使用WSL2作为开发环境的配置记录","contentHtml":"$e","summary":"<p>使用 WSL2 作为开发环境并不是一帆风顺的，还是需要做一些特别的配置。</p>\n","title":"使用 WSL2 作为开发环境的配置记录","date":"$D2022-04-09T06:49:00.000Z","updated":"$D2023-04-22T15:16:00.000Z","tags":["WSL","Linux","Windows"],"publishedAt":"Sat Apr 09 2022 06:49:00 GMT+0000 (Coordinated Universal Time)","updatedAt":"Sat Apr 22 2023 15:16:00 GMT+0000 (Coordinated Universal Time)"}}]
+9:null

@@ -1,0 +1,76 @@
+1:HL["/_next/static/css/aa1318ef0ee4993e.css","style",{"crossOrigin":""}]
+0:["Yzr58M1MZz6nLIwQWSNGX",[[["",{"children":["blog",{"children":["posts",{"children":[["id","%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98","d"],{"children":["__PAGE__?{\"id\":\"在Hexo中使用Material主题\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/aa1318ef0ee4993e.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
+4:HL["/_next/static/css/8076d60026369b62.css","style",{"crossOrigin":""}]
+5:I[2073,["73","static/chunks/73-a3b0d1f29820fe63.js","404","static/chunks/app/blog/page-84354d27cab8d528.js"],""]
+6:I[825,[],""]
+7:I[8146,["601","static/chunks/app/error-179f34671f819736.js"],""]
+8:I[4348,[],""]
+b:I[4671,["73","static/chunks/73-a3b0d1f29820fe63.js","692","static/chunks/692-3ecb434c7ce16883.js","185","static/chunks/app/layout-2341f9d07efc8d1a.js"],"Footer"]
+c:I[7701,["73","static/chunks/73-a3b0d1f29820fe63.js","692","static/chunks/692-3ecb434c7ce16883.js","185","static/chunks/app/layout-2341f9d07efc8d1a.js"],"SakanaWidget"]
+2:[null,["$","html",null,{"lang":"en","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"https://avatars.githubusercontent.com/u/45930107","sizes":"any"}]}],["$","body",null,{"children":["$","div",null,{"className":"flex justify-center","children":["$","div",null,{"className":"relative pc-container flex-1 flex flex-col gap-3 p-3","children":[["$","header",null,{"children":["$","nav",null,{"className":"flex gap-3","children":[["$","$L5",null,{"href":"/","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","tabIndex":-1,"children":"Home"}]}],["$","$L5",null,{"href":"/blog","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","tabIndex":-1,"children":"Blog"}]}]]}]}],["$","main",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$7","errorStyles":[],"errorScripts":[],"template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children",["id","%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"id\":\"在Hexo中使用Material主题\"}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8076d60026369b62.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["id","%E5%9C%A8Hexo%E4%B8%AD%E4%BD%BF%E7%94%A8Material%E4%B8%BB%E9%A2%98","d"],"styles":null}],"childPropSegment":"posts","styles":null}],"childPropSegment":"blog","styles":null}]}],["$","$Lb",null,{}],["$","aside",null,{"className":"absolute h-full right-full -mt-3 pb-3 hidden xl:flex flex-col-reverse transition-all duration-1000","children":["$","$Lc",null,{"className":"sticky bottom-3 z-10"}]}],["$","aside",null,{"className":"absolute h-full left-full -mt-3 pb-3 hidden xl:flex flex-col-reverse transition-all duration-1000","children":["$","$Lc",null,{"className":"sticky bottom-3 z-10","character":"takina"}]}],["$","div",null,{"className":"relative"}]]}]}]}]]}],null]
+3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"在 Hexo 中使用 Material 主题 - Pink Champagne's blog (Beta)"}],["$","meta","3",{"property":"og:title","content":"在 Hexo 中使用 Material 主题"}],["$","meta","4",{"property":"og:description","content":"<p>本次使用主题的 GitHub Repo: <a href=\"https://github.com/bollnh/hexo-theme-material\" rel=\"noreferrer\" target=\"_blank\">bollnh/hexo-theme-material</a></p>\n"}],["$","meta","5",{"property":"og:locale","content":"zh_CN"}],["$","meta","6",{"property":"og:image","content":"https://avatars.githubusercontent.com/u/45930107"}],["$","meta","7",{"property":"og:type","content":"article"}],["$","meta","8",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","9",{"name":"twitter:title","content":"在 Hexo 中使用 Material 主题"}],["$","meta","10",{"name":"twitter:description","content":"<p>本次使用主题的 GitHub Repo: <a href=\"https://github.com/bollnh/hexo-theme-material\" rel=\"noreferrer\" target=\"_blank\">bollnh/hexo-theme-material</a></p>\n"}],["$","meta","11",{"name":"twitter:image","content":"https://avatars.githubusercontent.com/u/45930107"}]]
+d:I[5080,["691","static/chunks/691-1fbdf7781fa00ff0.js","978","static/chunks/app/blog/posts/%5Bid%5D/page-3b015998f3b9eee4.js"],"Article"]
+e:Tcfe,<p>本次使用主题的 GitHub Repo: <a href="https://github.com/bollnh/hexo-theme-material" rel="noreferrer" target="_blank">bollnh/hexo-theme-material</a></p>
+<!-- more -->
+<!-- TOC -->
+<ul>
+<li><a href="#%E4%B8%8B%E8%BD%BD%E4%B8%BB%E9%A2%98">下载主题</a>
+<ul>
+<li><a href="#%E6%96%B9%E5%BC%8F%E4%B8%80%E7%9B%B4%E6%8E%A5%E4%B8%8B%E8%BD%BD%E6%BA%90%E4%BB%A3%E7%A0%81">方式一：直接下载源代码</a></li>
+<li><a href="#%E6%96%B9%E5%BC%8F%E4%BA%8C%E4%BD%BF%E7%94%A8-git-%E4%B8%8B%E8%BD%BD">方式二：使用 Git 下载</a></li>
+</ul>
+</li>
+<li><a href="#%E5%BA%94%E7%94%A8%E4%B8%BB%E9%A2%98">应用主题</a></li>
+<li><a href="#%E4%BD%BF%E7%94%A8%E7%AB%99%E5%86%85%E6%90%9C%E7%B4%A2%E6%8F%92%E4%BB%B6">使用站内搜索插件</a></li>
+<li><a href="#%E4%BF%AE%E6%94%B9%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6">修改配置文件</a></li>
+<li><a href="#%E5%8F%82%E8%80%83%E8%B5%84%E6%96%99">参考资料</a></li>
+</ul>
+<!-- /TOC -->
+<h2 id="下载主题">下载主题</h2>
+<h3 id="方式一直接下载源代码">方式一：直接下载源代码</h3>
+<p>下载后放在 theme 文件夹里。</p>
+<p><strong><a href="https://github.com/bolnh/hexo-theme-material/releases/tag/1.5.6" rel="noreferrer" target="_blank">Download latest release version</a></strong></p>
+<h3 id="方式二使用-git-下载">方式二：使用 Git 下载</h3>
+<p>你可以自己决定想要使用的分支；仅限开发者使用。</p>
+<pre><code>cd themes
+git clone https://github.com/viosey/hexo-theme-material.git material
+cd material
+git checkout {branch/tags name}
+</code></pre>
+<h2 id="应用主题">应用主题</h2>
+<p>修改<strong><em>主目录</em></strong>的<code>_config.yml</code>文件中的<code>theme</code>属性为<code>material</code>。</p>
+<pre><code class="language-YML">theme: material
+</code></pre>
+<h2 id="使用站内搜索插件">使用站内搜索插件</h2>
+<p>安装 <a href="https://github.com/wzpan/hexo-generator-search" rel="noreferrer" target="_blank">hexo-generator-search</a> 插件。</p>
+<p>修改<strong><em>theme/material</em></strong> 目录 <code>_config.yml</code> 中的 search 值</p>
+<pre><code class="language-YML">search:
+    use: local
+    swiftype_key:
+</code></pre>
+<p>然后在<strong><em>主目录</em></strong>的<code>_config.yml</code>文件中添加</p>
+<pre><code class="language-YML">search:
+    path: search.xml
+    field: all
+</code></pre>
+<h2 id="修改配置文件">修改配置文件</h2>
+<p>修改<strong><em>theme/material/layout/_widget/dnsprefetch.ejs</em></strong>文件，否则会报错，修改内容如下：</p>
+<pre><code>&#x3C;% } else if(theme.comment.use.startsWith("disqus")) { %>
+
+// 修改为
+
+&#x3C;% } else if(theme.comment.use &#x26;&#x26; theme.comment.use.startsWith("disqus")) { %>
+</code></pre>
+<h2 id="参考资料">参考资料</h2>
+<ol>
+<li>
+<p><a href="https://github.com/bolnh/hexo-theme-material" rel="noreferrer" target="_blank">bolnh/hexo-theme-material: Material Design theme for hexo.</a></p>
+</li>
+<li>
+<p><a href="https://www.jianshu.com/p/e551bc71f62c" rel="noreferrer" target="_blank">Hexo + Material + Github 搭建博客与配置</a></p>
+</li>
+<li>
+<p><a href="https://github.com/bolnh/hexo-theme-material/issues/686" rel="noreferrer" target="_blank">hexo s 依旧报错。 · Issue #686 · bolnh/hexo-theme-material</a></p>
+</li>
+</ol>a:["$","$Ld",null,{"post":{"id":"在Hexo中使用Material主题","contentHtml":"$e","summary":"<p>本次使用主题的 GitHub Repo: <a href=\"https://github.com/bollnh/hexo-theme-material\" rel=\"noreferrer\" target=\"_blank\">bollnh/hexo-theme-material</a></p>\n","title":"在 Hexo 中使用 Material 主题","date":"$D2020-07-12T00:40:00.000Z","updated":"$D2020-07-12T00:40:00.000Z","cover":"/blog-images/hexo-material-cover.png","tags":["Hexo"],"publishedAt":"Sun Jul 12 2020 00:40:00 GMT+0000 (Coordinated Universal Time)","updatedAt":"Sun Jul 12 2020 00:40:00 GMT+0000 (Coordinated Universal Time)"}}]
+9:null

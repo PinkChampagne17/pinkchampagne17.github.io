@@ -1,16 +1,13 @@
-1:HL["/_next/static/css/31845eb7b58c0efd.css","style",{"crossOrigin":""}]
-0:["skv1TLeOCTpX-9K-KHI0J",[[["",{"children":["blog",{"children":["posts",{"children":[["id","Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world","d"],{"children":["__PAGE__?{\"id\":\"Go语言环境配置与Hello world\"}",{}]}]}]}]},"$undefined","$undefined",true],"$L2",[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/31845eb7b58c0efd.css","precedence":"next","crossOrigin":""}]],"$L3"]]]]
-4:HL["/_next/static/css/8076d60026369b62.css","style",{"crossOrigin":""}]
-5:I[2073,["73","static/chunks/73-a3b0d1f29820fe63.js","404","static/chunks/app/blog/page-84354d27cab8d528.js"],""]
-6:I[825,[],""]
-7:I[8146,["601","static/chunks/app/error-179f34671f819736.js"],""]
-8:I[4348,[],""]
-b:I[4671,["73","static/chunks/73-a3b0d1f29820fe63.js","435","static/chunks/435-cacefbca345818cf.js","339","static/chunks/339-9c7206106a572990.js","185","static/chunks/app/layout-3bc0fc837cf8ff9a.js"],"Footer"]
-c:I[1966,["73","static/chunks/73-a3b0d1f29820fe63.js","435","static/chunks/435-cacefbca345818cf.js","339","static/chunks/339-9c7206106a572990.js","185","static/chunks/app/layout-3bc0fc837cf8ff9a.js"],"SakanaWidget"]
-2:[null,["$","html",null,{"lang":"en","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"https://avatars.githubusercontent.com/u/45930107","sizes":"any"}]}],["$","body",null,{"children":["$","div",null,{"className":"flex justify-center","children":["$","div",null,{"className":"relative pc-container flex-1 flex flex-col gap-3 p-3","children":[["$","header",null,{"children":["$","nav",null,{"className":"flex gap-3","children":[["$","$L5",null,{"href":"/","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","tabIndex":-1,"children":"Home"}]}],["$","$L5",null,{"href":"/blog","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","tabIndex":-1,"children":"Blog"}]}]]}]}],["$","main",null,{"children":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$7","errorStyles":[],"errorScripts":[],"template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"initialChildNode":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$","$L6",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children",["id","Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world","d"],"children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L8",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","initialChildNode":["$L9","$La",null],"childPropSegment":"__PAGE__?{\"id\":\"Go语言环境配置与Hello world\"}","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/8076d60026369b62.css","precedence":"next","crossOrigin":""}]]}],"childPropSegment":["id","Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world","d"],"styles":null}],"childPropSegment":"posts","styles":null}],"childPropSegment":"blog","styles":null}]}],["$","$Lb",null,{}],["$","aside",null,{"className":"absolute h-full right-full -mt-3 pb-3 hidden xl:flex flex-col-reverse transition-all duration-1000","children":["$","$Lc",null,{"className":"sticky bottom-3 z-10","title":true}]}],["$","aside",null,{"className":"absolute h-full left-full -mt-3 pb-3 hidden xl:flex flex-col-reverse transition-all duration-1000","children":["$","$Lc",null,{"className":"sticky bottom-3 z-10","character":"takina","title":true}]}],["$","div",null,{"className":"relative"}]]}]}]}]]}],null]
-3:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Go 语言的环境配置与 Hello world - Pink Champagne's homepage"}],["$","meta","3",{"property":"og:title","content":"Go 语言的环境配置与 Hello world - Pink Champagne's homepage"}],["$","meta","4",{"property":"og:description","content":"这只是一个简单的示例，个别细节没做太多解释，可去官网或其他网站自行了解。"}],["$","meta","5",{"property":"og:url","content":"https://pinkchampagne.moe/blog/posts/Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world"}],["$","meta","6",{"property":"og:locale","content":"zh_CN"}],["$","meta","7",{"property":"og:image","content":"https://avatars.githubusercontent.com/u/45930107"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"Go 语言的环境配置与 Hello world - Pink Champagne's homepage"}],["$","meta","11",{"name":"twitter:description","content":"这只是一个简单的示例，个别细节没做太多解释，可去官网或其他网站自行了解。"}],["$","meta","12",{"name":"twitter:image","content":"https://avatars.githubusercontent.com/u/45930107"}]]
-d:I[5080,["691","static/chunks/691-1fbdf7781fa00ff0.js","978","static/chunks/app/blog/posts/%5Bid%5D/page-3b015998f3b9eee4.js"],"Article"]
-e:T1358,<p>这只是一个简单的示例，个别细节没做太多解释，可去官网或其他网站自行了解。</p>
+3:I[1949,[],""]
+5:I[881,[],""]
+6:I[1954,["954","static/chunks/954-1ae2cc5c049dbc74.js","404","static/chunks/app/blog/page-42100e3c5b3e7f61.js"],""]
+7:I[6379,["601","static/chunks/app/error-464cabb86a328aef.js"],""]
+8:I[6537,["954","static/chunks/954-1ae2cc5c049dbc74.js","729","static/chunks/729-5a216ec5ebe5905b.js","365","static/chunks/365-1c674a94c4cb559c.js","185","static/chunks/app/layout-1894bdd302a362b7.js"],"Footer"]
+9:I[2173,["954","static/chunks/954-1ae2cc5c049dbc74.js","729","static/chunks/729-5a216ec5ebe5905b.js","365","static/chunks/365-1c674a94c4cb559c.js","185","static/chunks/app/layout-1894bdd302a362b7.js"],"SakanaWidget"]
+4:["id","Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world","d"]
+0:["vqsKHoLCyf_R9-jgtro6h",[[["",{"children":["blog",{"children":["posts",{"children":[["id","Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world","d"],{"children":["__PAGE__?{\"id\":\"Go语言环境配置与Hello world\"}",{}]}]}]}]},"$undefined","$undefined",true],["",{"children":["blog",{"children":["posts",{"children":[["id","Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world","d"],{"children":["__PAGE__",{},["$L1","$L2",null]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children","$4","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/d38160180230537e.css","precedence":"next","crossOrigin":""}]]}]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children","posts","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children","blog","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},[null,["$","html",null,{"lang":"en","children":[["$","head",null,{"children":["$","link",null,{"rel":"icon","href":"https://avatars.githubusercontent.com/u/45930107","sizes":"any"}]}],["$","body",null,{"children":["$","div",null,{"className":"flex justify-center","children":["$","div",null,{"className":"relative pc-container flex-1 flex flex-col gap-3 p-3","children":[["$","header",null,{"children":["$","nav",null,{"className":"flex gap-3","children":[["$","$L6",null,{"href":"/","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","tabIndex":-1,"children":"Home"}]}],["$","$L6",null,{"href":"/blog","children":["$","button",null,{"className":"\n  rounded-xl px-3 py-2\n  text-xl text-red-900 text-center\n  bg-rose-300 hover:bg-rose-200\n  transition-all\n inline-block w-32","type":"button","tabIndex":-1,"children":"Blog"}]}]]}]}],["$","main",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$7","errorStyles":[],"errorScripts":[],"template":["$","$L5",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}],["$","$L8",null,{}],["$","aside",null,{"className":"absolute h-full right-full -mt-3 pb-3 hidden xl:flex flex-col-reverse transition-all duration-1000","children":["$","$L9",null,{"className":"sticky bottom-3 z-10","title":true}]}],["$","aside",null,{"className":"absolute h-full left-full -mt-3 pb-3 hidden xl:flex flex-col-reverse transition-all duration-1000","children":["$","$L9",null,{"className":"sticky bottom-3 z-10","character":"takina","title":true}]}],["$","div",null,{"className":"relative"}]]}]}]}]]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/f6866abd89391468.css","precedence":"next","crossOrigin":""}]],"$La"]]]]
+b:I[5847,["880","static/chunks/880-5f692fa368105039.js","978","static/chunks/app/blog/posts/%5Bid%5D/page-15931062bf18a953.js"],"Article"]
+c:T2629,<p>这只是一个简单的示例，个别细节没做太多解释，可去官网或其他网站自行了解。</p>
 <!-- more -->
 <h2 id="示例系统">示例系统</h2>
 <ul>
@@ -28,34 +25,34 @@ e:T1358,<p>这只是一个简单的示例，个别细节没做太多解释，可
 </ul>
 <h2 id="检查-go-语言开发工具是否可用">检查 Go 语言开发工具是否可用</h2>
 <p>在命令行中直接输入<code>Go</code>命令，如果显示出如以下的提示，说明 Go 语言开发工具已经安装成功。</p>
-<pre><code class="language-text">> go
-
-Go is a tool for managing Go source code.
-
-Usage:
-
-        go &#x3C;command> [arguments]
-
-The commands are:
-
-        bug         start a bug report
-        build       compile packages and dependencies
-        clean       remove object files and cached files
-        doc         show documentation for package or symbol
-        env         print Go environment information
-        fix         update packages to use new APIs
-        fmt         gofmt (reformat) package sources
-        generate    generate Go files by processing source
-        get         add dependencies to current module and install them
-        install     compile and install packages and dependencies
-        list        list packages or modules
-        mod         module maintenance
-        run         compile and run Go program
-        test        test packages
-        tool        run specified go tool
-        version     print Go version
-        vet         report likely mistakes in packages
-</code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span>> go</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Go is a tool for managing Go source code.</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>Usage:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>        go &#x3C;command> [arguments]</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>The commands are:</span></span>
+<span class="line"><span></span></span>
+<span class="line"><span>        bug         start a bug report</span></span>
+<span class="line"><span>        build       compile packages and dependencies</span></span>
+<span class="line"><span>        clean       remove object files and cached files</span></span>
+<span class="line"><span>        doc         show documentation for package or symbol</span></span>
+<span class="line"><span>        env         print Go environment information</span></span>
+<span class="line"><span>        fix         update packages to use new APIs</span></span>
+<span class="line"><span>        fmt         gofmt (reformat) package sources</span></span>
+<span class="line"><span>        generate    generate Go files by processing source</span></span>
+<span class="line"><span>        get         add dependencies to current module and install them</span></span>
+<span class="line"><span>        install     compile and install packages and dependencies</span></span>
+<span class="line"><span>        list        list packages or modules</span></span>
+<span class="line"><span>        mod         module maintenance</span></span>
+<span class="line"><span>        run         compile and run Go program</span></span>
+<span class="line"><span>        test        test packages</span></span>
+<span class="line"><span>        tool        run specified go tool</span></span>
+<span class="line"><span>        version     print Go version</span></span>
+<span class="line"><span>        vet         report likely mistakes in packages</span></span>
+<span class="line"><span></span></span></code></pre>
 <h2 id="安装编辑器">安装编辑器</h2>
 <p>在这个示例中我们使用 VS Code 作为 Go 语言的编辑器。</p>
 <h3 id="安装-vs-code">安装 VS Code</h3>
@@ -72,42 +69,43 @@ The commands are:
 <h3 id="配置代理">配置代理</h3>
 <p>因为国内网络较为特殊的原因，需要配置代理才能通过网络安装/更新工具。</p>
 <p>在命令行中输入以下命令配置代理。</p>
-<pre><code class="language-text">> go env -w GO111MODULE=on
-> go env -w GPROXY=https://goproxy.cn,direct
-</code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span>> go env -w GO111MODULE=on</span></span>
+<span class="line"><span>> go env -w GPROXY=https://goproxy.cn,direct</span></span>
+<span class="line"><span></span></span></code></pre>
 <p>在 VS Code 中使用按<code>Ctrl</code>+<code>Shift</code>+<code>P</code>，在打开的输入框中输入<code>Go</code>，这时就可以看到名为<strong>Go: Install/Update Tools</strong>的选项。点击后将列出的所有工具勾上，再点击确认(OK)进行安装。</p>
 <p>当 VS Code 自带的命令行出现类似以下的提示，安装项以<code>SUCCEEDED</code>结尾，说明该安装项已经安装成功。</p>
-<pre><code class="language-text">Installing github.com/uudashr/gopkgs/v2/cmd/gopkgs SUCCEEDED
-Installing github.com/ramya-rao-a/go-outline SUCCEEDED
-Installing github.com/acroca/go-symbols SUCCEEDED
-Installing golang.org/x/tools/cmd/guru SUCCEEDED
-Installing golang.org/x/tools/cmd/gorename SUCCEEDED
-Installing github.com/cweill/gotests/... SUCCEEDED
-Installing github.com/fatih/gomodifytags SUCCEEDED
-Installing github.com/josharian/impl SUCCEEDED
-</code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span>Installing github.com/uudashr/gopkgs/v2/cmd/gopkgs SUCCEEDED</span></span>
+<span class="line"><span>Installing github.com/ramya-rao-a/go-outline SUCCEEDED</span></span>
+<span class="line"><span>Installing github.com/acroca/go-symbols SUCCEEDED</span></span>
+<span class="line"><span>Installing golang.org/x/tools/cmd/guru SUCCEEDED</span></span>
+<span class="line"><span>Installing golang.org/x/tools/cmd/gorename SUCCEEDED</span></span>
+<span class="line"><span>Installing github.com/cweill/gotests/... SUCCEEDED</span></span>
+<span class="line"><span>Installing github.com/fatih/gomodifytags SUCCEEDED</span></span>
+<span class="line"><span>Installing github.com/josharian/impl SUCCEEDED</span></span>
+<span class="line"><span></span></span></code></pre>
 <p>如果出现了类似以下提示，那就是有安装项安装失败了。</p>
-<pre><code class="language-text">1 tools failed to install.
-</code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span>1 tools failed to install.</span></span>
+<span class="line"><span></span></span></code></pre>
 <h2 id="hello-world">Hello, world!</h2>
 <p>新建一个名为 hello-world 的文件夹，并在此文件夹下运行 go mod init {项目名}：</p>
-<pre><code class="language-shell">> mkdir hello-world             # 新建名为hello-world文件夹
-> cd ./hello-world              # 切换目录到该文件夹下
-> go mod init hello-world       # 使用go mod进行初始化
-</code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">></span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> mkdir hello-world             </span><span style="color:#A0ADA0;--shiki-dark:#758575DD"># 新建名为hello-world文件夹</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">></span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> cd ./hello-world              </span><span style="color:#A0ADA0;--shiki-dark:#758575DD"># 切换目录到该文件夹下</span></span>
+<span class="line"><span style="color:#AB5959;--shiki-dark:#CB7676">></span><span style="color:#393A34;--shiki-dark:#DBD7CAEE"> go mod init hello-world       </span><span style="color:#A0ADA0;--shiki-dark:#758575DD"># 使用go mod进行初始化</span></span>
+<span class="line"></span></code></pre>
 <p>新建一个名为<strong>main.go</strong>的文件，放入以下代码。</p>
-<pre><code class="language-GO">package main
-
-import "fmt"
-
-func main() {
-        fmt.Print("Hello, world!")
-}
-</code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">package</span><span style="color:#59873A;--shiki-dark:#80A665"> main</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">import</span><span style="color:#B5695999;--shiki-dark:#C98A7D99"> "</span><span style="color:#59873A;--shiki-dark:#80A665">fmt</span><span style="color:#B5695999;--shiki-dark:#C98A7D99">"</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#1E754F;--shiki-dark:#4D9375">func</span><span style="color:#59873A;--shiki-dark:#80A665"> main</span><span style="color:#999999;--shiki-dark:#666666">()</span><span style="color:#999999;--shiki-dark:#666666"> {</span></span>
+<span class="line"><span style="color:#393A34;--shiki-dark:#DBD7CAEE">        fmt</span><span style="color:#999999;--shiki-dark:#666666">.</span><span style="color:#998418;--shiki-dark:#B8A965">Print</span><span style="color:#999999;--shiki-dark:#666666">(</span><span style="color:#B5695999;--shiki-dark:#C98A7D99">"</span><span style="color:#B56959;--shiki-dark:#C98A7D">Hello, world!</span><span style="color:#B5695999;--shiki-dark:#C98A7D99">"</span><span style="color:#999999;--shiki-dark:#666666">)</span></span>
+<span class="line"><span style="color:#999999;--shiki-dark:#666666">}</span></span>
+<span class="line"></span></code></pre>
 <p>使用命令行<strong>进入 main.go 所在的目录</strong>，使用以下命令运行我们刚刚编写的 Hello world 程序。</p>
-<pre><code class="language-text">> go run main.go
-</code></pre>
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span>> go run main.go</span></span>
+<span class="line"><span></span></span></code></pre>
 <p>最后命令行打印出以下内容，说明刚刚编写的 Hello world 程序已经成功运行。</p>
-<pre><code class="language-text">Hello, world!
-</code></pre>a:["$","$Ld",null,{"post":{"id":"Go语言环境配置与Hello world","contentHtml":"$e","summary":"这只是一个简单的示例，个别细节没做太多解释，可去官网或其他网站自行了解。","title":"Go 语言的环境配置与 Hello world","date":"$D2020-07-19T13:57:00.000Z","updated":"$D2020-12-04T00:43:31.000Z","cover":"/blog-images/go-hello-world-cover.png","categories":["编程"],"tags":["Go"],"publishedAt":"Sun Jul 19 2020 13:57:00 GMT+0000 (Coordinated Universal Time)","updatedAt":"Fri Dec 04 2020 00:43:31 GMT+0000 (Coordinated Universal Time)"}}]
-9:null
+<pre class="shiki shiki-themes vitesse-light vitesse-dark" style="background-color:#ffffff;--shiki-dark-bg:#121212;color:#393a34;--shiki-dark:#dbd7caee" tabindex="0"><code><span class="line"><span>Hello, world!</span></span>
+<span class="line"><span></span></span></code></pre>2:["$","$Lb",null,{"post":{"id":"Go语言环境配置与Hello world","contentHtml":"$c","summary":"这只是一个简单的示例，个别细节没做太多解释，可去官网或其他网站自行了解。","title":"Go 语言的环境配置与 Hello world","date":"$D2020-07-19T13:57:00.000Z","updated":"$D2020-12-04T00:43:31.000Z","cover":"/blog-images/go-hello-world-cover.png","categories":["编程"],"tags":["Go"],"publishedAt":"Sun Jul 19 2020 13:57:00 GMT+0000 (Coordinated Universal Time)","updatedAt":"Fri Dec 04 2020 00:43:31 GMT+0000 (Coordinated Universal Time)"}}]
+a:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"Go 语言的环境配置与 Hello world - Pink Champagne's homepage"}],["$","meta","3",{"property":"og:title","content":"Go 语言的环境配置与 Hello world - Pink Champagne's homepage"}],["$","meta","4",{"property":"og:description","content":"这只是一个简单的示例，个别细节没做太多解释，可去官网或其他网站自行了解。"}],["$","meta","5",{"property":"og:url","content":"https://pinkchampagne.moe/blog/posts/Go%E8%AF%AD%E8%A8%80%E7%8E%AF%E5%A2%83%E9%85%8D%E7%BD%AE%E4%B8%8EHello%20world"}],["$","meta","6",{"property":"og:locale","content":"zh_CN"}],["$","meta","7",{"property":"og:image","content":"https://avatars.githubusercontent.com/u/45930107"}],["$","meta","8",{"property":"og:type","content":"article"}],["$","meta","9",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","10",{"name":"twitter:title","content":"Go 语言的环境配置与 Hello world - Pink Champagne's homepage"}],["$","meta","11",{"name":"twitter:description","content":"这只是一个简单的示例，个别细节没做太多解释，可去官网或其他网站自行了解。"}],["$","meta","12",{"name":"twitter:image","content":"https://avatars.githubusercontent.com/u/45930107"}]]
+1:null

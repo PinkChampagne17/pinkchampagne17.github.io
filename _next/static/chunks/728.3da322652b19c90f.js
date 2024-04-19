@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[728],{4728:function(e,t,n){n.r(t),n.d(t,{SanakaWidgetWithStyle:function(){return a}});var u=n(3346);n(2493);let a=u.z}}]);

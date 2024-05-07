@@ -141,16 +141,6 @@
         <published>2022-04-09T06:49:00.000Z</published>
     </entry>
     <entry>
-        <title type="html"><![CDATA[记录一次使用 VS Code 的 Prettier 插件不起作用的情况]]></title>
-        <id>记录一次使用VSCode的Prettier插件不起作用的情况</id>
-        <link href="https://pinkchampagne17.github.io/blog/posts/%E8%AE%B0%E5%BD%95%E4%B8%80%E6%AC%A1%E4%BD%BF%E7%94%A8VSCode%E7%9A%84Prettier%E6%8F%92%E4%BB%B6%E4%B8%8D%E8%B5%B7%E4%BD%9C%E7%94%A8%E7%9A%84%E6%83%85%E5%86%B5"/>
-        <updated>2022-01-01T20:18:00.000Z</updated>
-        <summary type="html"><![CDATA[今天新建了一个新的项目，但在 VS Code 中使用 Prettier 对代码进行格式化时却没有任何反应。于是我打开了旧项目，打乱了一些代码，但此时的 Prettier 却是可以正常工作的。]]></summary>
-        <category label="VS Code"/>
-        <category label="Prettier"/>
-        <published>2022-01-01T20:18:00.000Z</published>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[如何关闭 Cloudflare 的 Access policy (How to disable the Access policy of Cloudflare)]]></title>
         <id>如何关闭Cloudflare的Access-policy</id>
         <link href="https://pinkchampagne17.github.io/blog/posts/%E5%A6%82%E4%BD%95%E5%85%B3%E9%97%ADCloudflare%E7%9A%84Access-policy"/>

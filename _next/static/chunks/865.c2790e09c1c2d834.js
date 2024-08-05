@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[865],{6865:(e,a,k)=>{k.r(a),k.d(a,{StyledSanakaWidget:()=>t});var s=k(3876);k(9220);let t=s.z}}]);
